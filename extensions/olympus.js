@@ -310,8 +310,8 @@ export class OlympusExtension extends BaseExtension {
   }
 
   async getMangaDetails(mangaUrl) {
-    const rawSlug = mangaUrl.replace(/\/+$/, '').split('/series/').pop();
-    const cleanSlug = rawSlug.replace(/^comic-/, '');
+    const rawSlug = (mangaUrl || '').replace(/\/+$/, '').split('/series/').pop() || '';
+    let cleanSlug = rawSlug.replace(/^comic-/, '');
     
     let details = {
       title: cleanSlug.replace(/-/g, ' '),
@@ -321,14 +321,32 @@ export class OlympusExtension extends BaseExtension {
       status: 'En emisión'
     };
 
-    // 1. Obtener metadata desde el API directo
-    try {
-      const headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        'Referer': this.baseUrl
-      };
+    const headers = {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+      'Referer': this.baseUrl
+    };
 
-      const metaRes = await fetch(`${this.baseUrl}/api/series/${cleanSlug}`, { headers });
+    let targetSlug = cleanSlug;
+
+    // 1. Obtener metadata desde el API directo (con auto-resolución de slug si devuelve 404)
+    try {
+      let metaRes = await fetch(`${this.baseUrl}/api/series/${cleanSlug}`, { headers });
+      
+      if (!metaRes.ok) {
+        // Buscar en la biblioteca completa de Olympus por slug base o título
+        const all = await this._fetchFullLibrary();
+        const baseQuery = cleanSlug.split('-202')[0].replace(/-\d{8}.*$/, '').toLowerCase();
+        const match = all.find(m => {
+          const mSlug = (m.slug || '').toLowerCase();
+          const mTitle = (m.title || '').toLowerCase();
+          return mSlug.includes(baseQuery) || baseQuery.includes(mSlug.split('-202')[0]) || mTitle.includes(baseQuery.replace(/[-_]/g, ' '));
+        });
+        if (match && match.slug) {
+          targetSlug = match.slug;
+          metaRes = await fetch(`${this.baseUrl}/api/series/${targetSlug}`, { headers });
+        }
+      }
+
       if (metaRes.ok) {
         const metaJson = await metaRes.json();
         const d = metaJson.data;
@@ -349,14 +367,9 @@ export class OlympusExtension extends BaseExtension {
     // 2. Obtener capítulos completos desde panel API
     let chapters = [];
     try {
-      const apiUrl = `https://panel.olympusxyz.com/api/series/${cleanSlug}/chapters`;
-      const headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        'Referer': this.baseUrl
-      };
-
+      const apiUrl = `https://panel.olympusxyz.com/api/series/${targetSlug}/chapters`;
       let res = await fetch(`${apiUrl}?page=1`, { headers });
-      if (res.status !== 200) {
+      if (res.status !== 200 && targetSlug !== rawSlug) {
         res = await fetch(`https://panel.olympusxyz.com/api/series/${rawSlug}/chapters?page=1`, { headers });
       }
 
@@ -367,7 +380,7 @@ export class OlympusExtension extends BaseExtension {
 
         if (totalPages > 1) {
           const promises = [];
-          for (let p = 2; p <= totalPages; p++) {
+          for (let p = 2; p <= Math.min(totalPages, 25); p++) {
             promises.push(
               fetch(`${apiUrl}?page=${p}`, { headers })
                 .then(r => r.json())
@@ -388,7 +401,7 @@ export class OlympusExtension extends BaseExtension {
             id: `${item.id}`,
             name: `Capítulo ${chNum}`,
             chapterNumber: `${chNum}`,
-            url: `${this.baseUrl}/capitulo/${item.id}/${rawSlug}`,
+            url: `${this.baseUrl}/capitulo/${item.id}/comic-${targetSlug}`,
             date: dateStr
           };
         });
