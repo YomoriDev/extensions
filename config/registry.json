@@ -1,0 +1,170 @@
+{
+  "repositoryName": "Repositorio Oficial Yomori",
+  "version": "1.0.0",
+  "website": "http://localhost:5000",
+  "description": "Repositorio oficial de extensiones y scrapers para Yomori Manga",
+  "extensions": [
+    {
+      "id": "olympus-scanlation",
+      "name": "Olympus Scanlation",
+      "version": "2.2.0",
+      "lang": "es",
+      "baseUrl": "https://olympusxyz.com",
+      "icon": "https://olympusxyz.com/olympus-logo-96.webp",
+      "script": "olympus-scanlation.js",
+      "scriptUrl": "/extensions/olympus-scanlation.js",
+      "description": "Lector oficial de cómics, manhwas y novelas de Olympus Scanlation.",
+      "status": "online",
+      "features": [
+        "catalog",
+        "search",
+        "details",
+        "chapters"
+      ]
+    },
+    {
+      "id": "zonatmo",
+      "name": "ZonaTMO",
+      "version": "3.0.0",
+      "lang": "es",
+      "baseUrl": "https://zonatmo.org",
+      "icon": "https://zonatmo.com/favicon.ico",
+      "script": "zonatmo.js",
+      "scriptUrl": "/extensions/zonatmo.js",
+      "description": "Catálogo oficial completo con miles de mangas, manhwas y novelas de TuMangaOnline (ZonaTMO).",
+      "status": "online",
+      "features": [
+        "catalog",
+        "search",
+        "details",
+        "chapters"
+      ]
+    },
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "version": "2.2.0",
+      "lang": "es",
+      "baseUrl": "https://mangadex.org",
+      "icon": "https://mangadex.org/favicon.ico",
+      "script": "mangadex.js",
+      "scriptUrl": "/extensions/mangadex.js",
+      "description": "Lector y extractor en tiempo real para MangaDex en español.",
+      "status": "online",
+      "features": [
+        "catalog",
+        "search",
+        "details",
+        "chapters"
+      ]
+    },
+    {
+      "id": "manhwalatino",
+      "name": "ManhwaLatino",
+      "version": "2.2.0",
+      "lang": "es",
+      "baseUrl": "https://manhwalatino.lat",
+      "icon": "https://manhwalatino.lat/favicon.ico",
+      "script": "manhwalatino.js",
+      "scriptUrl": "/extensions/manhwalatino.js",
+      "description": "Lector y extractor en tiempo real para ManhwaLatino.",
+      "status": "online",
+      "features": [
+        "catalog",
+        "search",
+        "details",
+        "chapters"
+      ]
+    },
+    {
+      "id": "miauscan",
+      "name": "MiauScan",
+      "version": "3.0.0",
+      "lang": "es",
+      "baseUrl": "https://leemiau.com",
+      "icon": "https://leemiau.com/wp-content/uploads/2022/02/cropped-gatita.png",
+      "script": "miauscan.js",
+      "scriptUrl": "/extensions/miauscan.js",
+      "description": "Lector y catálogo oficial completo de MiauScan (LeeMiau).",
+      "status": "online",
+      "features": [
+        "catalog",
+        "search",
+        "details",
+        "chapters"
+      ]
+    },
+    {
+      "id": "skymangas",
+      "name": "SkyMangas",
+      "version": "3.0.0",
+      "lang": "es",
+      "baseUrl": "https://skymangas.com",
+      "icon": "https://skymangas.com/favicon.ico",
+      "script": "skymangas.js",
+      "scriptUrl": "/extensions/skymangas.js",
+      "description": "Lector y catálogo oficial de Manhuas y Mangas de SkyMangas.",
+      "status": "online",
+      "features": [
+        "catalog",
+        "search",
+        "details",
+        "chapters"
+      ]
+    },
+    {
+      "id": "plot-twist-no-fansub",
+      "name": "Plot Twist No Fansub",
+      "version": "3.0.0",
+      "lang": "es",
+      "baseUrl": "https://plotnofansub.com",
+      "icon": "https://plotnofansub.com/wp-content/uploads/2021/04/cropped-logo-192x192.png",
+      "script": "plot-twist-no-fansub.js",
+      "scriptUrl": "/extensions/plot-twist-no-fansub.js",
+      "description": "Catálogo y lector oficial de mangas en español de Plot Twist No Fansub.",
+      "status": "online",
+      "features": [
+        "catalog",
+        "search",
+        "details",
+        "chapters"
+      ]
+    },
+    {
+      "id": "ikigai-mnagas",
+      "name": "Ikigai Mnagas",
+      "version": "2.2.0",
+      "lang": "es",
+      "baseUrl": "https://manhwalatino.lat",
+      "icon": "https://ikigaimangas.com/favicon.ico",
+      "script": "ikigai-mnagas.js",
+      "scriptUrl": "/extensions/ikigai-mnagas.js",
+      "description": "Lector y extractor en tiempo real para Ikigai Mnagas.",
+      "status": "online",
+      "features": [
+        "catalog",
+        "search",
+        "details",
+        "chapters"
+      ]
+    },
+    {
+      "id": "rn-scanlation",
+      "name": "RN Scanlation",
+      "version": "3.0.0",
+      "lang": "es",
+      "baseUrl": "https://rncalation.online",
+      "icon": "https://rncalation.online/icons/icon-192.png",
+      "script": "rn-scanlation.js",
+      "scriptUrl": "/extensions/rn-scanlation.js",
+      "description": "Catálogo y lector oficial de manhwas y cómics en español de RN Scanlation.",
+      "status": "online",
+      "features": [
+        "catalog",
+        "search",
+        "details",
+        "chapters"
+      ]
+    }
+  ]
+}
