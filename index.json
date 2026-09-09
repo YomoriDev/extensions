@@ -6,8 +6,8 @@
     "lang": "es",
     "baseUrl": "https://olympusxyz.com",
     "icon": "https://olympusxyz.com/olympus-logo-96.webp",
-    "script": "olympus-scanlation.js",
-    "scriptUrl": "https://raw.githubusercontent.com/cristoferapaza01-ai/yomori-extensions/main/extensions/olympus-scanlation.js",
+    "script": "olympus.js",
+    "scriptUrl": "https://raw.githubusercontent.com/cristoferapaza01-ai/yomori-extensions/main/extensions/olympus.js",
     "description": "Lector oficial de cómics, manhwas y novelas de Olympus Scanlation.",
     "status": "online",
     "features": [

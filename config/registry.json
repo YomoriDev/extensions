@@ -11,8 +11,8 @@
       "lang": "es",
       "baseUrl": "https://olympusxyz.com",
       "icon": "https://olympusxyz.com/olympus-logo-96.webp",
-      "script": "olympus-scanlation.js",
-      "scriptUrl": "/extensions/olympus-scanlation.js",
+      "script": "olympus.js",
+      "scriptUrl": "/extensions/olympus.js",
       "description": "Lector oficial de cómics, manhwas y novelas de Olympus Scanlation.",
       "status": "online",
       "features": [
