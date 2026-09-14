@@ -2,7 +2,7 @@
   "meta": {
     "name": "Yomori Extensions",
     "shortName": "Yomori",
-    "website": "https://yomorimanga.duckdns.org",
-    "signingKeyFingerprint": "8616b18e60d9cd648f8405cd1189dc40ec12830a9f9cebdcef9c80978fd1953a"
+    "website": "https://github.com/cristoferapaza01-ai/yomori-extensions",
+    "signingKeyFingerprint": "ffdd82d14d32b14c510a896f2143132b9d58df8b27a9fd4e65ce77175084ebac"
   }
 }

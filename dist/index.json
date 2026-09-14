@@ -13,7 +13,7 @@
       {
         "name": "ZonaTMO",
         "lang": "es",
-        "id": "zonatmo-es",
+        "id": 8492615695108145656,
         "baseUrl": "https://visortmo.com"
       }
     ],
@@ -34,7 +34,7 @@
       {
         "name": "Plot Twist No Fansub",
         "lang": "es",
-        "id": "plottwistnofansub-es",
+        "id": 6935004473807791201,
         "baseUrl": "https://www.plottwistnofansub.com"
       }
     ],
@@ -55,8 +55,8 @@
       {
         "name": "Ikigai Mangas",
         "lang": "es",
-        "id": "ikigaimangas-es",
-        "baseUrl": "https://ikigaimangas.com"
+        "id": 3546919326830738510,
+        "baseUrl": "https://visorikigai.gettocaboca.com"
       }
     ],
     "sha256": "819244ef1becb9a5d5d8acfa6dc3b05778921946efd0332d752b955b163c7021",
@@ -76,7 +76,7 @@
       {
         "name": "RN Scanlation",
         "lang": "es",
-        "id": "rnscanlation-es",
+        "id": 1399856434765612568,
         "baseUrl": "https://rncalation.online"
       }
     ],
@@ -97,7 +97,7 @@
       {
         "name": "Manhwa Latino",
         "lang": "es",
-        "id": "manhwalatino-es",
+        "id": 2214735443598445048,
         "baseUrl": "https://manhwalatino.lat"
       }
     ],
@@ -118,7 +118,7 @@
       {
         "name": "MiauScan",
         "lang": "es",
-        "id": "miauscan-es",
+        "id": 7857447596453391532,
         "baseUrl": "https://leemiau.com"
       }
     ],
@@ -139,7 +139,7 @@
       {
         "name": "SkyMangas",
         "lang": "es",
-        "id": "skymangas-es",
+        "id": 8713024885922119175,
         "baseUrl": "https://skymangas.com"
       }
     ],
@@ -160,7 +160,7 @@
       {
         "name": "Olympus Scanlation",
         "lang": "es",
-        "id": "olympusscanlation-es",
+        "id": 4384315126107049412,
         "baseUrl": "https://olympusxyz.com"
       }
     ],
@@ -181,7 +181,7 @@
       {
         "name": "MangaDex",
         "lang": "all",
-        "id": "mangadex-all",
+        "id": 6404943692147160087,
         "baseUrl": "https://mangadex.org"
       }
     ],
