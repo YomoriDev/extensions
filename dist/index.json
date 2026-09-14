@@ -2,10 +2,10 @@
   {
     "name": "Yomori: ZonaTMO",
     "pkg": "org.yomori.extension.es.zonatmo",
-    "apk": "yomori-es-zonatmo-v1.4.3.apk",
+    "apk": "yomori-es-zonatmo-v1.4.4.apk",
     "lang": "es",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 1,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -14,19 +14,19 @@
         "name": "ZonaTMO",
         "lang": "es",
         "id": 8492615695108145656,
-        "baseUrl": "https://visortmo.com"
+        "baseUrl": "https://zonatmo.org"
       }
     ],
-    "sha256": "8335ed456b8f871066fd2192ee2ea60bd6b80af7acce19ca598c5147873a0f05",
-    "size": 692002
+    "sha256": "16a831211d240a815604c20fbc58eedba99d7158541262964e733bda32a0bc05",
+    "size": 691850
   },
   {
     "name": "Yomori: Plot Twist No Fansub",
     "pkg": "org.yomori.extension.es.plottwistnofansub",
-    "apk": "yomori-es-plottwistnofansub-v1.4.3.apk",
+    "apk": "yomori-es-plottwistnofansub-v1.4.4.apk",
     "lang": "es",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -35,19 +35,19 @@
         "name": "Plot Twist No Fansub",
         "lang": "es",
         "id": 6935004473807791201,
-        "baseUrl": "https://www.plottwistnofansub.com"
+        "baseUrl": "https://plotnofansub.com"
       }
     ],
-    "sha256": "6b65600f2512466e2904d92e83b3f916c24764c76245c9a559635f268b24044c",
-    "size": 691474
+    "sha256": "4c2bc7a29fa34849c5347dcc21f37ff684dd4b859fb75d16bbe85a99e6aebc0d",
+    "size": 691262
   },
   {
     "name": "Yomori: Ikigai Mangas",
     "pkg": "org.yomori.extension.es.ikigaimangas",
-    "apk": "yomori-es-ikigaimangas-v1.4.3.apk",
+    "apk": "yomori-es-ikigaimangas-v1.4.4.apk",
     "lang": "es",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -59,16 +59,16 @@
         "baseUrl": "https://visorikigai.gettocaboca.com"
       }
     ],
-    "sha256": "819244ef1becb9a5d5d8acfa6dc3b05778921946efd0332d752b955b163c7021",
-    "size": 690518
+    "sha256": "4a7986eefe7feb7b7aef83ec9947806795c3865e85c5c6f05a697f891d7d215e",
+    "size": 690634
   },
   {
     "name": "Yomori: RN Scanlation",
     "pkg": "org.yomori.extension.es.rnscanlation",
-    "apk": "yomori-es-rnscanlation-v1.4.3.apk",
+    "apk": "yomori-es-rnscanlation-v1.4.4.apk",
     "lang": "es",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 1,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -80,16 +80,16 @@
         "baseUrl": "https://rncalation.online"
       }
     ],
-    "sha256": "1c44ef595787943d83bc2f79e7acb48e9f12a10cc2d267fbc0fb33b16125f459",
-    "size": 690054
+    "sha256": "8cd1bcd0c88bba3076bd5691955f870cea8857776cd7b2b26582559f04a33c44",
+    "size": 689950
   },
   {
     "name": "Yomori: Manhwa Latino",
     "pkg": "org.yomori.extension.es.manhwalatino",
-    "apk": "yomori-es-manhwalatino-v1.4.3.apk",
+    "apk": "yomori-es-manhwalatino-v1.4.4.apk",
     "lang": "es",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -101,16 +101,16 @@
         "baseUrl": "https://manhwalatino.lat"
       }
     ],
-    "sha256": "08a6ce60cb9fa51a8a699a3f077a46195994d9c19ce1db17a235d089483c2527",
-    "size": 690110
+    "sha256": "01b4b322cd61fb538c162af757b230d3818dbbb78fc28543c7429c7bac0c7ff5",
+    "size": 689970
   },
   {
     "name": "Yomori: MiauScan",
     "pkg": "org.yomori.extension.es.miauscan",
-    "apk": "yomori-es-miauscan-v1.4.3.apk",
+    "apk": "yomori-es-miauscan-v1.4.4.apk",
     "lang": "es",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -122,16 +122,16 @@
         "baseUrl": "https://leemiau.com"
       }
     ],
-    "sha256": "be8e9aa207b6a0811b8b0096cdf513658f3e0c517c081bfe9a39c307ae2ebc33",
-    "size": 690022
+    "sha256": "4e3d2ac3af10012cb011efb26f9f61aecea9532ad0539762a43ae6c8a04ce69f",
+    "size": 689934
   },
   {
     "name": "Yomori: SkyMangas",
     "pkg": "org.yomori.extension.es.skymangas",
-    "apk": "yomori-es-skymangas-v1.4.3.apk",
+    "apk": "yomori-es-skymangas-v1.4.4.apk",
     "lang": "es",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -143,16 +143,16 @@
         "baseUrl": "https://skymangas.com"
       }
     ],
-    "sha256": "de698a2a9aef3022d177488077372ff3fe585147424d0e60dc17b1910b1ef74c",
-    "size": 689618
+    "sha256": "9f9a3bba6706062008c8a1056777c36912fb2f91856a725deafcdf790192e337",
+    "size": 690014
   },
   {
     "name": "Yomori: Olympus Scanlation",
     "pkg": "org.yomori.extension.es.olympusscanlation",
-    "apk": "yomori-es-olympusscanlation-v1.4.3.apk",
+    "apk": "yomori-es-olympusscanlation-v1.4.4.apk",
     "lang": "es",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -164,16 +164,16 @@
         "baseUrl": "https://olympusxyz.com"
       }
     ],
-    "sha256": "1bb9835c2d8e26ef3e7673763cc280b996149e8f0de613f6885d31e30fd527bf",
-    "size": 688290
+    "sha256": "61d26a1d4728ba829640b9359fa9da9c78d81f830fe5e69c05d0b0b7cc2294b5",
+    "size": 688110
   },
   {
     "name": "Yomori: MangaDex",
     "pkg": "org.yomori.extension.all.mangadex",
-    "apk": "yomori-all-mangadex-v1.4.3.apk",
+    "apk": "yomori-all-mangadex-v1.4.4.apk",
     "lang": "all",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -185,7 +185,7 @@
         "baseUrl": "https://mangadex.org"
       }
     ],
-    "sha256": "1a7f69afd742ac74598888cca3c7e70b7ba457797e230e0f846e94ac93d51f4b",
-    "size": 690058
+    "sha256": "ad1a0bf3e3c0293eaa924c76131109df154caf5e3b098b2a948e23a1dfa22b88",
+    "size": 690262
   }
 ]
