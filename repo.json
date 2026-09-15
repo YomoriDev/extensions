@@ -140,10 +140,10 @@
     {
       "name": "Yomori: RN Scanlation",
       "pkg": "org.yomori.extension.es.rnscanlation",
-      "apk": "yomori-es-rnscanlation-v1.4.9.apk",
+      "apk": "yomori-es-rnscanlation-v1.5.0.apk",
       "lang": "es",
-      "code": 9,
-      "version": "1.4.9",
+      "code": 10,
+      "version": "1.5.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -156,8 +156,8 @@
         }
       ],
       "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-rnscanlation-v1.4.8.apk",
-      "hash": "d0e74e14e534ae123abd82d4e428467fa8e951142dbececd706a82dbfb28a614",
-      "size": 674.41
+      "hash": "7bde968ecef4c00b518571566f4623070ab522a5b8b8851d678d0803a8c24e56",
+      "size": 674.16
     },
     {
       "name": "Yomori: SkyMangas",
