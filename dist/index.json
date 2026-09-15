@@ -24,10 +24,10 @@
   {
     "name": "Yomori: Ikigai Mangas",
     "pkg": "org.yomori.extension.es.ikigaimangas",
-    "apk": "yomori-es-ikigaimangas-v1.5.0.apk",
+    "apk": "yomori-es-ikigaimangas-v1.5.1.apk",
     "lang": "es",
-    "code": 10,
-    "version": "1.5.0",
+    "code": 11,
+    "version": "1.5.1",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -40,7 +40,7 @@
       }
     ],
     "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-ikigaimangas-v1.4.8.apk",
-    "hash": "51794bb547b729da054a4e760aecb74bb7e91c5919d5d85006b25b0e87cf7b26",
+    "hash": "d0f00f1c30aa083fbadca8fcfb088d955f1f18a8f332a268cbb1d62db1f329dc",
     "size": 674.93
   },
   {
