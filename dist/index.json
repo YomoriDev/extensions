@@ -46,10 +46,10 @@
   {
     "name": "Yomori: Manhwa Latino",
     "pkg": "org.yomori.extension.es.manhwalatino",
-    "apk": "yomori-es-manhwalatino-v1.4.8.apk",
+    "apk": "yomori-es-manhwalatino-v1.4.9.apk",
     "lang": "es",
-    "code": 8,
-    "version": "1.4.8",
+    "code": 9,
+    "version": "1.4.9",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -62,8 +62,8 @@
       }
     ],
     "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-manhwalatino-v1.4.8.apk",
-    "hash": "e9fbe0817826d8289a8b789a25e664a55842362df630926484fc11cb9b4cdee3",
-    "size": 673.8
+    "hash": "313c469dd84da590f6a50f1890a1fb3eb29058e65e37eb2ec0841fee4397b149",
+    "size": 674.37
   },
   {
     "name": "Yomori: MiauScan",
