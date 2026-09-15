@@ -2,24 +2,24 @@
   {
     "name": "Yomori: MangaDex",
     "pkg": "org.yomori.extension.all.mangadex",
-    "apk": "yomori-all-mangadex-v1.4.9.apk",
+    "apk": "yomori-all-mangadex-v1.5.0.apk",
     "lang": "all",
-    "code": 9,
-    "version": "1.4.9",
+    "code": 10,
+    "version": "1.5.0",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
     "sources": [
       {
         "name": "MangaDex",
-        "id": 680112328610067,
+        "id": 383511839154682,
         "baseUrl": "https://all-mangadex.com",
         "lang": "all"
       }
     ],
-    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-all-mangadex-v1.4.9.apk",
-    "hash": "4cc23c6bc53a8ef5c862dfd8b066e57778933fa3ce810f42d95946e19b66ff42",
-    "size": 675.51
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-all-mangadex-v1.5.0.apk",
+    "hash": "49cbd86b46e87abc7ebd49df4043f3a256624cf7d35bc2cb3b6d6b0a8a01da89",
+    "size": 675.59
   },
   {
     "name": "Yomori: Ikigai Mangas",
@@ -34,7 +34,7 @@
     "sources": [
       {
         "name": "Ikigai Mangas",
-        "id": 534063206132466,
+        "id": 828292027931897,
         "baseUrl": "https://es-ikigaimangas.com",
         "lang": "es"
       }
@@ -56,7 +56,7 @@
     "sources": [
       {
         "name": "Manhwa Latino",
-        "id": 198248880228808,
+        "id": 511097364799840,
         "baseUrl": "https://es-manhwalatino.com",
         "lang": "es"
       }
@@ -78,7 +78,7 @@
     "sources": [
       {
         "name": "MiauScan",
-        "id": 378502226633435,
+        "id": 797203816610026,
         "baseUrl": "https://es-miauscan.com",
         "lang": "es"
       }
@@ -100,7 +100,7 @@
     "sources": [
       {
         "name": "Olympus Scanlation",
-        "id": 434820326769854,
+        "id": 965023270077527,
         "baseUrl": "https://es-olympusscanlation.com",
         "lang": "es"
       }
@@ -122,7 +122,7 @@
     "sources": [
       {
         "name": "Plot Twist No Fansub",
-        "id": 2924148894504,
+        "id": 243483027429842,
         "baseUrl": "https://es-plottwistnofansub.com",
         "lang": "es"
       }
@@ -144,7 +144,7 @@
     "sources": [
       {
         "name": "RN Scanlation",
-        "id": 211243070425181,
+        "id": 841187331749700,
         "baseUrl": "https://es-rnscanlation.com",
         "lang": "es"
       }
@@ -166,7 +166,7 @@
     "sources": [
       {
         "name": "SkyMangas",
-        "id": 664867584600162,
+        "id": 397554487829530,
         "baseUrl": "https://es-skymangas.com",
         "lang": "es"
       }
@@ -188,7 +188,7 @@
     "sources": [
       {
         "name": "ZonaTMO",
-        "id": 682290144376839,
+        "id": 884233324940229,
         "baseUrl": "https://es-zonatmo.com",
         "lang": "es"
       }
