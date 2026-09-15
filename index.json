@@ -2,10 +2,10 @@
   {
     "name": "Yomori: MangaDex",
     "pkg": "org.yomori.extension.all.mangadex",
-    "apk": "yomori-all-mangadex-v1.4.12.apk",
+    "apk": "yomori-all-mangadex-v1.4.13.apk",
     "lang": "all",
-    "code": 12,
-    "version": "1.4.12",
+    "code": 13,
+    "version": "1.4.13",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -17,9 +17,9 @@
         "lang": "all"
       }
     ],
-    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-all-mangadex-v1.4.12.apk",
-    "hash": "e6917c220cc1432de1f082fd1333041199d5692c2afbdd4f45ab51da7c9da42d",
-    "size": 675.92
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-all-mangadex-v1.4.13.apk",
+    "hash": "dbe4420463d688c0624e7ca97040074a6869392dbf9000a50b495add8b1169ac",
+    "size": 675.95
   },
   {
     "name": "Yomori: Ikigai Mangas",
