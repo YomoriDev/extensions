@@ -18,7 +18,7 @@
       "sources": [
         {
           "name": "MangaDex",
-          "id": 77294379906607,
+          "id": 386492429440845,
           "baseUrl": "https://all-mangadex.com",
           "lang": "all"
         }
@@ -40,14 +40,14 @@
       "sources": [
         {
           "name": "Ikigai Mangas",
-          "id": 573510465282336,
+          "id": 602237039937651,
           "baseUrl": "https://es-ikigaimangas.com",
           "lang": "es"
         }
       ],
       "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-ikigaimangas-v1.4.8.apk",
-      "hash": "5ac0364d67470972e11e38d529a025cb4b93ff21b13b5ad0965243a9891418c9",
-      "size": 674.09
+      "hash": "9a41b44ff20da26f82238efd14cc1a48154feb6c724592ecd7bbec011867e948",
+      "size": 674.4
     },
     {
       "name": "Yomori: Manhwa Latino",
@@ -62,7 +62,7 @@
       "sources": [
         {
           "name": "Manhwa Latino",
-          "id": 964773004366932,
+          "id": 630898854305190,
           "baseUrl": "https://es-manhwalatino.com",
           "lang": "es"
         }
@@ -84,7 +84,7 @@
       "sources": [
         {
           "name": "MiauScan",
-          "id": 788683433786189,
+          "id": 57864056032888,
           "baseUrl": "https://es-miauscan.com",
           "lang": "es"
         }
@@ -106,7 +106,7 @@
       "sources": [
         {
           "name": "Olympus Scanlation",
-          "id": 547086789572293,
+          "id": 98347813162683,
           "baseUrl": "https://es-olympusscanlation.com",
           "lang": "es"
         }
@@ -128,7 +128,7 @@
       "sources": [
         {
           "name": "Plot Twist No Fansub",
-          "id": 786838680681729,
+          "id": 733457424735578,
           "baseUrl": "https://es-plottwistnofansub.com",
           "lang": "es"
         }
@@ -150,7 +150,7 @@
       "sources": [
         {
           "name": "RN Scanlation",
-          "id": 399731533159870,
+          "id": 724297646329690,
           "baseUrl": "https://es-rnscanlation.com",
           "lang": "es"
         }
@@ -172,7 +172,7 @@
       "sources": [
         {
           "name": "SkyMangas",
-          "id": 586335353180714,
+          "id": 610901747055707,
           "baseUrl": "https://es-skymangas.com",
           "lang": "es"
         }
@@ -194,7 +194,7 @@
       "sources": [
         {
           "name": "ZonaTMO",
-          "id": 147927596185281,
+          "id": 960242376216480,
           "baseUrl": "https://es-zonatmo.com",
           "lang": "es"
         }
