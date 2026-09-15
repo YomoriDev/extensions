@@ -1,164 +1,200 @@
 [
   {
-    "id": "olympus-scanlation",
-    "name": "Olympus Scanlation",
-    "version": "2.2.0",
-    "lang": "es",
-    "baseUrl": "https://olympusxyz.com",
-    "icon": "https://olympusxyz.com/olympus-logo-96.webp",
-    "script": "olympus.js",
-    "scriptUrl": "https://raw.githubusercontent.com/cristoferapaza01-ai/yomori-extensions/main/extensions/olympus.js",
-    "description": "Lector oficial de cómics, manhwas y novelas de Olympus Scanlation.",
-    "status": "online",
-    "features": [
-      "catalog",
-      "search",
-      "details",
-      "chapters"
-    ]
+    "name": "Yomori: MangaDex",
+    "pkg": "org.yomori.extension.all.mangadex",
+    "apk": "yomori-all-mangadex-v1.4.8.apk",
+    "lang": "all",
+    "code": 8,
+    "version": "1.4.8",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "MangaDex",
+        "id": 335755965034496,
+        "baseUrl": "https://all-mangadex.com",
+        "lang": "all"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-all-mangadex-v1.4.8.apk",
+    "hash": "56cda4534c6be7750d138a69aa42eaba2452a1af4a52f6f1fc1422166def37fa",
+    "size": 674.08
   },
   {
-    "id": "zonatmo",
-    "name": "ZonaTMO",
-    "version": "3.0.0",
+    "name": "Yomori: Ikigai Mangas",
+    "pkg": "org.yomori.extension.es.ikigaimangas",
+    "apk": "yomori-es-ikigaimangas-v1.4.8.apk",
     "lang": "es",
-    "baseUrl": "https://zonatmo.org",
-    "icon": "https://zonatmo.com/favicon.ico",
-    "script": "zonatmo.js",
-    "scriptUrl": "https://raw.githubusercontent.com/cristoferapaza01-ai/yomori-extensions/main/extensions/zonatmo.js",
-    "description": "Catálogo oficial completo con miles de mangas, manhwas y novelas de TuMangaOnline (ZonaTMO).",
-    "status": "online",
-    "features": [
-      "catalog",
-      "search",
-      "details",
-      "chapters"
-    ]
+    "code": 8,
+    "version": "1.4.8",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Ikigai Mangas",
+        "id": 605310139308432,
+        "baseUrl": "https://es-ikigaimangas.com",
+        "lang": "es"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-ikigaimangas-v1.4.8.apk",
+    "hash": "fae53f491f17dca66e3908d981af60266d6ab67540ea20c7fd4c5f3f68bbd2c6",
+    "size": 675.62
   },
   {
-    "id": "mangadex",
-    "name": "MangaDex",
-    "version": "2.2.0",
+    "name": "Yomori: Manhwa Latino",
+    "pkg": "org.yomori.extension.es.manhwalatino",
+    "apk": "yomori-es-manhwalatino-v1.4.8.apk",
     "lang": "es",
-    "baseUrl": "https://mangadex.org",
-    "icon": "https://mangadex.org/favicon.ico",
-    "script": "mangadex.js",
-    "scriptUrl": "https://raw.githubusercontent.com/cristoferapaza01-ai/yomori-extensions/main/extensions/mangadex.js",
-    "description": "Lector y extractor en tiempo real para MangaDex en español.",
-    "status": "online",
-    "features": [
-      "catalog",
-      "search",
-      "details",
-      "chapters"
-    ]
+    "code": 8,
+    "version": "1.4.8",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Manhwa Latino",
+        "id": 542898241107218,
+        "baseUrl": "https://es-manhwalatino.com",
+        "lang": "es"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-manhwalatino-v1.4.8.apk",
+    "hash": "e9fbe0817826d8289a8b789a25e664a55842362df630926484fc11cb9b4cdee3",
+    "size": 673.8
   },
   {
-    "id": "manhwalatino",
-    "name": "ManhwaLatino",
-    "version": "2.2.0",
+    "name": "Yomori: MiauScan",
+    "pkg": "org.yomori.extension.es.miauscan",
+    "apk": "yomori-es-miauscan-v1.4.8.apk",
     "lang": "es",
-    "baseUrl": "https://manhwalatino.lat",
-    "icon": "https://manhwalatino.lat/favicon.ico",
-    "script": "manhwalatino.js",
-    "scriptUrl": "https://raw.githubusercontent.com/cristoferapaza01-ai/yomori-extensions/main/extensions/manhwalatino.js",
-    "description": "Lector y extractor en tiempo real para ManhwaLatino.",
-    "status": "online",
-    "features": [
-      "catalog",
-      "search",
-      "details",
-      "chapters"
-    ]
+    "code": 8,
+    "version": "1.4.8",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "MiauScan",
+        "id": 625358450948298,
+        "baseUrl": "https://es-miauscan.com",
+        "lang": "es"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-miauscan-v1.4.8.apk",
+    "hash": "5f5db68b7d18d2b1ddc348ee73672e88bea8ace4ca8451f6abbfd46889ebc704",
+    "size": 673.76
   },
   {
-    "id": "miauscan",
-    "name": "MiauScan",
-    "version": "3.0.0",
+    "name": "Yomori: Olympus Scanlation",
+    "pkg": "org.yomori.extension.es.olympusscanlation",
+    "apk": "yomori-es-olympusscanlation-v1.4.8.apk",
     "lang": "es",
-    "baseUrl": "https://leemiau.com",
-    "icon": "https://leemiau.com/wp-content/uploads/2022/02/cropped-gatita.png",
-    "script": "miauscan.js",
-    "scriptUrl": "https://raw.githubusercontent.com/cristoferapaza01-ai/yomori-extensions/main/extensions/miauscan.js",
-    "description": "Lector y catálogo oficial completo de MiauScan (LeeMiau).",
-    "status": "online",
-    "features": [
-      "catalog",
-      "search",
-      "details",
-      "chapters"
-    ]
+    "code": 8,
+    "version": "1.4.8",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Olympus Scanlation",
+        "id": 830729446063493,
+        "baseUrl": "https://es-olympusscanlation.com",
+        "lang": "es"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-olympusscanlation-v1.4.8.apk",
+    "hash": "dfcef6d9c543e34e870950f7f297907c51f4d16248396846028a492603653aa2",
+    "size": 672.24
   },
   {
-    "id": "skymangas",
-    "name": "SkyMangas",
-    "version": "3.0.0",
+    "name": "Yomori: Plot Twist No Fansub",
+    "pkg": "org.yomori.extension.es.plottwistnofansub",
+    "apk": "yomori-es-plottwistnofansub-v1.4.8.apk",
     "lang": "es",
-    "baseUrl": "https://skymangas.com",
-    "icon": "https://skymangas.com/favicon.ico",
-    "script": "skymangas.js",
-    "scriptUrl": "https://raw.githubusercontent.com/cristoferapaza01-ai/yomori-extensions/main/extensions/skymangas.js",
-    "description": "Lector y catálogo oficial de Manhuas y Mangas de SkyMangas.",
-    "status": "online",
-    "features": [
-      "catalog",
-      "search",
-      "details",
-      "chapters"
-    ]
+    "code": 8,
+    "version": "1.4.8",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Plot Twist No Fansub",
+        "id": 194019579741583,
+        "baseUrl": "https://es-plottwistnofansub.com",
+        "lang": "es"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-plottwistnofansub-v1.4.8.apk",
+    "hash": "40e95b863193ff0588a5ff9c264300adc47bcf8d3d0669b8daad178c036d797b",
+    "size": 675.06
   },
   {
-    "id": "plot-twist-no-fansub",
-    "name": "Plot Twist No Fansub",
-    "version": "3.0.0",
+    "name": "Yomori: RN Scanlation",
+    "pkg": "org.yomori.extension.es.rnscanlation",
+    "apk": "yomori-es-rnscanlation-v1.4.8.apk",
     "lang": "es",
-    "baseUrl": "https://plotnofansub.com",
-    "icon": "https://plotnofansub.com/wp-content/uploads/2021/04/cropped-logo-192x192.png",
-    "script": "plot-twist-no-fansub.js",
-    "scriptUrl": "https://raw.githubusercontent.com/cristoferapaza01-ai/yomori-extensions/main/extensions/plot-twist-no-fansub.js",
-    "description": "Catálogo y lector oficial de mangas en español de Plot Twist No Fansub.",
-    "status": "online",
-    "features": [
-      "catalog",
-      "search",
-      "details",
-      "chapters"
-    ]
+    "code": 8,
+    "version": "1.4.8",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "RN Scanlation",
+        "id": 194037381798277,
+        "baseUrl": "https://es-rnscanlation.com",
+        "lang": "es"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-rnscanlation-v1.4.8.apk",
+    "hash": "994fc05957e17cceacdbbed7b797de8c35df71e23a8d9a3c2680670e4382b008",
+    "size": 673.78
   },
   {
-    "id": "ikigai-mnagas",
-    "name": "Ikigai Mnagas",
-    "version": "2.2.0",
+    "name": "Yomori: SkyMangas",
+    "pkg": "org.yomori.extension.es.skymangas",
+    "apk": "yomori-es-skymangas-v1.4.8.apk",
     "lang": "es",
-    "baseUrl": "https://manhwalatino.lat",
-    "icon": "https://ikigaimangas.com/favicon.ico",
-    "script": "ikigai-mnagas.js",
-    "scriptUrl": "https://raw.githubusercontent.com/cristoferapaza01-ai/yomori-extensions/main/extensions/ikigai-mnagas.js",
-    "description": "Lector y extractor en tiempo real para Ikigai Mnagas.",
-    "status": "online",
-    "features": [
-      "catalog",
-      "search",
-      "details",
-      "chapters"
-    ]
+    "code": 8,
+    "version": "1.4.8",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "SkyMangas",
+        "id": 507060397639876,
+        "baseUrl": "https://es-skymangas.com",
+        "lang": "es"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-skymangas-v1.4.8.apk",
+    "hash": "da4dee96627a071e22d4b483e54c6320ff5adb69da4afda9bfe248644deb36eb",
+    "size": 673.84
   },
   {
-    "id": "rn-scanlation",
-    "name": "RN Scanlation",
-    "version": "3.0.0",
+    "name": "Yomori: ZonaTMO",
+    "pkg": "org.yomori.extension.es.zonatmo",
+    "apk": "yomori-es-zonatmo-v1.4.8.apk",
     "lang": "es",
-    "baseUrl": "https://rncalation.online",
-    "icon": "https://rncalation.online/icons/icon-192.png",
-    "script": "rn-scanlation.js",
-    "scriptUrl": "https://raw.githubusercontent.com/cristoferapaza01-ai/yomori-extensions/main/extensions/rn-scanlation.js",
-    "description": "Catálogo y lector oficial de manhwas y cómics en español de RN Scanlation.",
-    "status": "online",
-    "features": [
-      "catalog",
-      "search",
-      "details",
-      "chapters"
-    ]
+    "code": 8,
+    "version": "1.4.8",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "ZonaTMO",
+        "id": 547367495383088,
+        "baseUrl": "https://es-zonatmo.com",
+        "lang": "es"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-zonatmo-v1.4.8.apk",
+    "hash": "d784d578b4fffe43ec7ace962c045afbf6528ed859b680d043af700361211f1d",
+    "size": 675.63
   }
 ]
