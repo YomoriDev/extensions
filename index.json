@@ -12,7 +12,7 @@
     "sources": [
       {
         "name": "MangaDex",
-        "id": 335755965034496,
+        "id": 574461690762555,
         "baseUrl": "https://all-mangadex.com",
         "lang": "all"
       }
@@ -34,7 +34,7 @@
     "sources": [
       {
         "name": "Ikigai Mangas",
-        "id": 605310139308432,
+        "id": 133350194572446,
         "baseUrl": "https://es-ikigaimangas.com",
         "lang": "es"
       }
@@ -56,7 +56,7 @@
     "sources": [
       {
         "name": "Manhwa Latino",
-        "id": 542898241107218,
+        "id": 207383308548474,
         "baseUrl": "https://es-manhwalatino.com",
         "lang": "es"
       }
@@ -78,7 +78,7 @@
     "sources": [
       {
         "name": "MiauScan",
-        "id": 625358450948298,
+        "id": 8920814335683,
         "baseUrl": "https://es-miauscan.com",
         "lang": "es"
       }
@@ -90,24 +90,24 @@
   {
     "name": "Yomori: Olympus Scanlation",
     "pkg": "org.yomori.extension.es.olympusscanlation",
-    "apk": "yomori-es-olympusscanlation-v1.4.8.apk",
+    "apk": "yomori-es-olympusscanlation-v1.4.9.apk",
     "lang": "es",
-    "code": 8,
-    "version": "1.4.8",
+    "code": 9,
+    "version": "1.4.9",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
     "sources": [
       {
         "name": "Olympus Scanlation",
-        "id": 830729446063493,
+        "id": 406637861940174,
         "baseUrl": "https://es-olympusscanlation.com",
         "lang": "es"
       }
     ],
-    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-olympusscanlation-v1.4.8.apk",
-    "hash": "dfcef6d9c543e34e870950f7f297907c51f4d16248396846028a492603653aa2",
-    "size": 672.24
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-olympusscanlation-v1.4.9.apk",
+    "hash": "9414696e1ebcb666afa790cb72a573ba02ea8cad239aced96c2e544ef4d968ab",
+    "size": 672.46
   },
   {
     "name": "Yomori: Plot Twist No Fansub",
@@ -122,7 +122,7 @@
     "sources": [
       {
         "name": "Plot Twist No Fansub",
-        "id": 194019579741583,
+        "id": 58338621833866,
         "baseUrl": "https://es-plottwistnofansub.com",
         "lang": "es"
       }
@@ -144,7 +144,7 @@
     "sources": [
       {
         "name": "RN Scanlation",
-        "id": 194037381798277,
+        "id": 752860893312830,
         "baseUrl": "https://es-rnscanlation.com",
         "lang": "es"
       }
@@ -166,7 +166,7 @@
     "sources": [
       {
         "name": "SkyMangas",
-        "id": 507060397639876,
+        "id": 791265491803407,
         "baseUrl": "https://es-skymangas.com",
         "lang": "es"
       }
@@ -188,7 +188,7 @@
     "sources": [
       {
         "name": "ZonaTMO",
-        "id": 547367495383088,
+        "id": 901612885576537,
         "baseUrl": "https://es-zonatmo.com",
         "lang": "es"
       }
