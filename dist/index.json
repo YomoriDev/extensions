@@ -196,5 +196,27 @@
     "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-zonatmo-v1.4.8.apk",
     "hash": "84a4a2bc95adf880007dca1029c00375dca3c6009147a1828c2259506321e024",
     "size": 676.05
+  },
+  {
+    "name": "Yomori: TMOHentai",
+    "pkg": "org.yomori.extension.es.tmohentai",
+    "apk": "es-tmohentai-release.apk",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "TMOHentai",
+        "id": 8385948079634749158,
+        "baseUrl": "https://tmohentai.app",
+        "lang": "es"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-tmohentai-v1.0.0.apk",
+    "hash": "f2ea74336f80ed8afc5b0619174d70d2cdd17792163816ec8e41d46b9d93215b",
+    "size": 677.23
   }
 ]
