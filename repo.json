@@ -164,8 +164,8 @@
       "pkg": "org.yomori.extension.es.skymangas",
       "apk": "es-skymangas-release.apk",
       "lang": "es",
-      "code": 11,
-      "version": "1.5.1",
+      "code": 12,
+      "version": "1.5.2",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -178,8 +178,8 @@
         }
       ],
       "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-skymangas-v1.4.8.apk",
-      "hash": "654cd5c6fa614c7be06320d07b68a33037715a8c8edb83a55392c93e4ec16dd1",
-      "size": 674.48
+      "hash": "71b3f42ee6a2b91bfc15c5c2d643b4eb9d7717a3946ededdfbb768ee3412b630",
+      "size": 674.79
     },
     {
       "name": "Yomori: ZonaTMO",
