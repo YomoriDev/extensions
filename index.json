@@ -26,8 +26,8 @@
     "pkg": "org.yomori.extension.es.ikigaimangas",
     "apk": "es-ikigaimangas-release.apk",
     "lang": "es",
-    "code": 12,
-    "version": "1.5.2",
+    "code": 13,
+    "version": "1.5.3",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -40,8 +40,8 @@
       }
     ],
     "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-ikigaimangas-v1.4.8.apk",
-    "hash": "6d996782c48521a0d8a9480a17cbcc841651f9541494b758adae5178ecd8d76b",
-    "size": 675.38
+    "hash": "56c38b0a00f51992dfa0bba084f784c8108931adc2f9299b01eb8d70a51c3e5f",
+    "size": 674.55
   },
   {
     "name": "Yomori: Manhwa Latino",
