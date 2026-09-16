@@ -202,8 +202,8 @@
     "pkg": "org.yomori.extension.es.tmohentai",
     "apk": "es-tmohentai-release.apk",
     "lang": "es",
-    "code": 1,
-    "version": "1.0.0",
+    "code": 10,
+    "version": "1.5.0",
     "nsfw": 1,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -215,8 +215,8 @@
         "lang": "es"
       }
     ],
-    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-tmohentai-v1.0.0.apk",
-    "hash": "f2ea74336f80ed8afc5b0619174d70d2cdd17792163816ec8e41d46b9d93215b",
-    "size": 677.23
+    "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-tmohentai-v1.4.8.apk",
+    "hash": "4a1c910c3d8c5bf4ff40e7ae17d6f76d77ee442503e63f8bacfa0b15fdb0860f",
+    "size": 677.24
   }
 ]
