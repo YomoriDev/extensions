@@ -1,12 +1,12 @@
 {
   "meta": {
     "name": "Yomori Extensions Official Repo",
-    "website": "https://github.com/cristhoper346/Yomori-extensions",
+    "website": "https://github.com/cristoferapaza01-ai/yomori-extensions",
     "signingKeyFingerprint": "ffdd82d14d32b14c510a896f2143132b9d58df8b27a9fd4e65ce77175084ebac"
   },
   "extensions": [
     {
-      "name": "Yomori: MangaDex",
+      "name": "MangaDex",
       "pkg": "eu.kanade.tachiyomi.extension.all.mangadex",
       "apk": "all-mangadex-release.apk",
       "lang": "all",
@@ -18,17 +18,16 @@
       "sources": [
         {
           "name": "MangaDex",
-          "id": 677240562297067,
-          "baseUrl": "https://all-mangadex.com",
+          "id": "6404943692147160087",
+          "baseUrl": "https://mangadex.org",
           "lang": "all"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-all-mangadex-v1.4.9.apk",
       "hash": "f1e7c88cbe0596de895f378e96eff9e85149d1caf6850da3ba9f3bf8147f76c6",
       "size": 677.28
     },
     {
-      "name": "Yomori: Ikigai Mangas",
+      "name": "Ikigai Mangas",
       "pkg": "eu.kanade.tachiyomi.extension.es.ikigaimangas",
       "apk": "es-ikigaimangas-release.apk",
       "lang": "es",
@@ -40,17 +39,16 @@
       "sources": [
         {
           "name": "Ikigai Mangas",
-          "id": 465696860667270,
-          "baseUrl": "https://es-ikigaimangas.com",
+          "id": "3546919326830738510",
+          "baseUrl": "https://visorikigai.gettocaboca.com",
           "lang": "es"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-ikigaimangas-v1.4.8.apk",
       "hash": "b37581b10f1f02aa19ec19c1c2ad615f92c0102face48c0b8c5e0b864af0c03b",
       "size": 675.67
     },
     {
-      "name": "Yomori: Manhwa Latino",
+      "name": "Manhwa Latino",
       "pkg": "eu.kanade.tachiyomi.extension.es.manhwalatino",
       "apk": "es-manhwalatino-release.apk",
       "lang": "es",
@@ -62,17 +60,16 @@
       "sources": [
         {
           "name": "Manhwa Latino",
-          "id": 278736110177809,
-          "baseUrl": "https://es-manhwalatino.com",
+          "id": "2214735443598445048",
+          "baseUrl": "https://manhwalatino.lat",
           "lang": "es"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-manhwalatino-v1.4.8.apk",
       "hash": "9fd702b33b689dd013faab69baedc33acc3694ff5bb0d04edca2575048be9751",
       "size": 676.03
     },
     {
-      "name": "Yomori: MiauScan",
+      "name": "MiauScan",
       "pkg": "eu.kanade.tachiyomi.extension.es.miauscan",
       "apk": "es-miauscan-release.apk",
       "lang": "es",
@@ -84,17 +81,16 @@
       "sources": [
         {
           "name": "MiauScan",
-          "id": 272528672166271,
-          "baseUrl": "https://es-miauscan.com",
+          "id": "7857447596453391532",
+          "baseUrl": "https://leemiau.com",
           "lang": "es"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-miauscan-v1.4.8.apk",
       "hash": "a5185c3c7b8d0f7b841f3c8500a074b137a9c241c8fd2af4f2686023d8ec435e",
       "size": 675.22
     },
     {
-      "name": "Yomori: Olympus Scanlation",
+      "name": "Olympus Scanlation",
       "pkg": "eu.kanade.tachiyomi.extension.es.olympusscanlation",
       "apk": "es-olympusscanlation-release.apk",
       "lang": "es",
@@ -106,17 +102,16 @@
       "sources": [
         {
           "name": "Olympus Scanlation",
-          "id": 326031604400560,
-          "baseUrl": "https://es-olympusscanlation.com",
+          "id": "4384315126107049412",
+          "baseUrl": "https://olympusxyz.com",
           "lang": "es"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-olympusscanlation-v1.4.9.apk",
       "hash": "481083938e164c211c2078d4588a3420d71f9cd56c49f02a1271b146ce6ea11e",
       "size": 674.21
     },
     {
-      "name": "Yomori: Plot Twist No Fansub",
+      "name": "Plot Twist No Fansub",
       "pkg": "eu.kanade.tachiyomi.extension.es.plottwistnofansub",
       "apk": "es-plottwistnofansub-release.apk",
       "lang": "es",
@@ -128,17 +123,16 @@
       "sources": [
         {
           "name": "Plot Twist No Fansub",
-          "id": 796106230356576,
-          "baseUrl": "https://es-plottwistnofansub.com",
+          "id": "6935004473807791201",
+          "baseUrl": "https://plotnofansub.com",
           "lang": "es"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-plottwistnofansub-v1.4.8.apk",
       "hash": "10f1632644622ffdcf4aed6b8566cb3169907b3c002240b415238a26da685f58",
       "size": 676.59
     },
     {
-      "name": "Yomori: RN Scanlation",
+      "name": "RN Scanlation",
       "pkg": "eu.kanade.tachiyomi.extension.es.rnscanlation",
       "apk": "es-rnscanlation-release.apk",
       "lang": "es",
@@ -150,17 +144,16 @@
       "sources": [
         {
           "name": "RN Scanlation",
-          "id": 68580195094275,
-          "baseUrl": "https://es-rnscanlation.com",
+          "id": "1399856434765612568",
+          "baseUrl": "https://rncalation.online",
           "lang": "es"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-rnscanlation-v1.4.8.apk",
       "hash": "0310822f654e426533771b087e2b247d693ce281cc51c4e1096a9280e987c03e",
       "size": 676.21
     },
     {
-      "name": "Yomori: SkyMangas",
+      "name": "SkyMangas",
       "pkg": "eu.kanade.tachiyomi.extension.es.skymangas",
       "apk": "es-skymangas-release.apk",
       "lang": "es",
@@ -172,17 +165,16 @@
       "sources": [
         {
           "name": "SkyMangas",
-          "id": 468855040642010,
-          "baseUrl": "https://es-skymangas.com",
+          "id": "8713024885922119175",
+          "baseUrl": "https://skymangas.com",
           "lang": "es"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-skymangas-v1.4.8.apk",
       "hash": "e5bbf22ea5f954b5d94b1cf6863058b43605e34de4fdf4d2be402b9740bb37e6",
       "size": 676.31
     },
     {
-      "name": "Yomori: ZonaTMO",
+      "name": "ZonaTMO",
       "pkg": "eu.kanade.tachiyomi.extension.es.zonatmo",
       "apk": "es-zonatmo-release.apk",
       "lang": "es",
@@ -194,17 +186,16 @@
       "sources": [
         {
           "name": "ZonaTMO",
-          "id": 735207221966705,
-          "baseUrl": "https://es-zonatmo.com",
+          "id": "8492615695108145656",
+          "baseUrl": "https://zonatmo.org",
           "lang": "es"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-zonatmo-v1.4.8.apk",
       "hash": "c0d98cd8ec8479bea1a659757a4bf46cf5f0de4fee158fc7a2b31d97122fda96",
       "size": 677.48
     },
     {
-      "name": "Yomori: TMOHentai",
+      "name": "TMOHentai",
       "pkg": "eu.kanade.tachiyomi.extension.es.tmohentai",
       "apk": "es-tmohentai-release.apk",
       "lang": "es",
@@ -216,12 +207,11 @@
       "sources": [
         {
           "name": "TMOHentai",
-          "id": 8385948079634749158,
+          "id": "8385948079634749158",
           "baseUrl": "https://tmohentai.app",
           "lang": "es"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-tmohentai-v1.4.8.apk",
       "hash": "64429da112c84aed5baea4f69484b27478d855787d84691001e90e7cb5964704",
       "size": 678.52
     }
