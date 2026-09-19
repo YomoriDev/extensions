@@ -98,8 +98,8 @@
       "pkg": "org.yomori.extension.es.olympusscanlation",
       "apk": "es-olympusscanlation-release.apk",
       "lang": "es",
-      "code": 15,
-      "version": "1.5.5",
+      "code": 16,
+      "version": "1.5.6",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -112,8 +112,8 @@
         }
       ],
       "icon": "https://raw.githubusercontent.com/cristhoper346/Yomori-extensions/main/dist/apk/yomori-es-olympusscanlation-v1.4.9.apk",
-      "hash": "42654fbf26c4aee7e0a09cd3531f4e4415ee2e45d56a8a4ddfd62b459a066805",
-      "size": 674.29
+      "hash": "b89f7da765c92e538b2fa55bfd927e79925f4440d74f55dd298c7e429ba7ac59",
+      "size": 674.12
     },
     {
       "name": "Yomori: Plot Twist No Fansub",
