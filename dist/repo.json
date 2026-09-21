@@ -1,6 +1,8 @@
 {
+  "index_v2": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/index.json",
   "meta": {
     "name": "Yomori Extensions Official Repo",
+    "shortName": "YOMORI",
     "website": "https://github.com/YomoriDev/extensions",
     "signingKeyFingerprint": "ffdd82d14d32b14c510a896f2143132b9d58df8b27a9fd4e65ce77175084ebac"
   },
@@ -17,14 +19,14 @@
       "hasChangelog": 0,
       "sources": [
         {
+          "id": 6404943692147160087,
           "name": "MangaDex",
-          "id": "6404943692147160087",
-          "baseUrl": "https://mangadex.org",
-          "lang": "all"
+          "lang": "all",
+          "baseUrl": "https://mangadex.org"
         }
       ],
-      "hash": "f1e7c88cbe0596de895f378e96eff9e85149d1caf6850da3ba9f3bf8147f76c6",
-      "size": 677.28
+      "hash": "f6f37bccb28c0c0e8e6a673cbc113e5925eb9c27449721500e04c7f10a0b42a6",
+      "size": 680.42
     },
     {
       "name": "Ikigai Mangas",
@@ -38,14 +40,14 @@
       "hasChangelog": 0,
       "sources": [
         {
+          "id": 3546919326830738510,
           "name": "Ikigai Mangas",
-          "id": "3546919326830738510",
-          "baseUrl": "https://visorikigai.gettocaboca.com",
-          "lang": "es"
+          "lang": "es",
+          "baseUrl": "https://visorikigai.gettocaboca.com"
         }
       ],
-      "hash": "b37581b10f1f02aa19ec19c1c2ad615f92c0102face48c0b8c5e0b864af0c03b",
-      "size": 675.67
+      "hash": "cfcc483392a1b82b55577b53e80607da6618be890878e1c23cf227c727e05c82",
+      "size": 678.8
     },
     {
       "name": "Manhwa Latino",
@@ -59,14 +61,14 @@
       "hasChangelog": 0,
       "sources": [
         {
+          "id": 2214735443598445048,
           "name": "Manhwa Latino",
-          "id": "2214735443598445048",
-          "baseUrl": "https://manhwalatino.lat",
-          "lang": "es"
+          "lang": "es",
+          "baseUrl": "https://manhwalatino.lat"
         }
       ],
-      "hash": "9fd702b33b689dd013faab69baedc33acc3694ff5bb0d04edca2575048be9751",
-      "size": 676.03
+      "hash": "7df46340287d15abcc6a277b0433a6c730658ab50d68b49bc7b500762433de0c",
+      "size": 679.16
     },
     {
       "name": "MiauScan",
@@ -80,14 +82,14 @@
       "hasChangelog": 0,
       "sources": [
         {
+          "id": 7857447596453391532,
           "name": "MiauScan",
-          "id": "7857447596453391532",
-          "baseUrl": "https://leemiau.com",
-          "lang": "es"
+          "lang": "es",
+          "baseUrl": "https://leemiau.com"
         }
       ],
-      "hash": "a5185c3c7b8d0f7b841f3c8500a074b137a9c241c8fd2af4f2686023d8ec435e",
-      "size": 675.22
+      "hash": "31eb3796a355decf4ff0640b3e33c118977d94d8e14390a6e59252a329fcc553",
+      "size": 678.35
     },
     {
       "name": "Olympus Scanlation",
@@ -101,14 +103,14 @@
       "hasChangelog": 0,
       "sources": [
         {
+          "id": 4384315126107049412,
           "name": "Olympus Scanlation",
-          "id": "4384315126107049412",
-          "baseUrl": "https://olympusxyz.com",
-          "lang": "es"
+          "lang": "es",
+          "baseUrl": "https://olympusxyz.com"
         }
       ],
-      "hash": "481083938e164c211c2078d4588a3420d71f9cd56c49f02a1271b146ce6ea11e",
-      "size": 674.21
+      "hash": "7b747e5560bbd0961ef639c6657831e259296757b9546aa7284abde71abf26de",
+      "size": 681.31
     },
     {
       "name": "Plot Twist No Fansub",
@@ -122,14 +124,14 @@
       "hasChangelog": 0,
       "sources": [
         {
+          "id": 6935004473807791201,
           "name": "Plot Twist No Fansub",
-          "id": "6935004473807791201",
-          "baseUrl": "https://plotnofansub.com",
-          "lang": "es"
+          "lang": "es",
+          "baseUrl": "https://plotnofansub.com"
         }
       ],
-      "hash": "10f1632644622ffdcf4aed6b8566cb3169907b3c002240b415238a26da685f58",
-      "size": 676.59
+      "hash": "9b3d837a8fcf5cf817c6211fc745217eaad186550ebb5cf4a871d9d55bc9850d",
+      "size": 679.72
     },
     {
       "name": "RN Scanlation",
@@ -143,14 +145,14 @@
       "hasChangelog": 0,
       "sources": [
         {
+          "id": 1399856434765612568,
           "name": "RN Scanlation",
-          "id": "1399856434765612568",
-          "baseUrl": "https://rncalation.online",
-          "lang": "es"
+          "lang": "es",
+          "baseUrl": "https://rncalation.online"
         }
       ],
-      "hash": "0310822f654e426533771b087e2b247d693ce281cc51c4e1096a9280e987c03e",
-      "size": 676.21
+      "hash": "73e30cb4cb3e4ebdea6bc8cbafb9b39f30e3e49bbe02ee42bda34e8814b2b277",
+      "size": 679.34
     },
     {
       "name": "SkyMangas",
@@ -164,14 +166,14 @@
       "hasChangelog": 0,
       "sources": [
         {
+          "id": 8713024885922119175,
           "name": "SkyMangas",
-          "id": "8713024885922119175",
-          "baseUrl": "https://skymangas.com",
-          "lang": "es"
+          "lang": "es",
+          "baseUrl": "https://skymangas.com"
         }
       ],
-      "hash": "e5bbf22ea5f954b5d94b1cf6863058b43605e34de4fdf4d2be402b9740bb37e6",
-      "size": 676.31
+      "hash": "f90f0a557ae16289ae1eae30fccd6d66553bcf0a7ea9b084a796578aed647244",
+      "size": 679.45
     },
     {
       "name": "ZonaTMO",
@@ -185,14 +187,14 @@
       "hasChangelog": 0,
       "sources": [
         {
+          "id": 8492615695108145656,
           "name": "ZonaTMO",
-          "id": "8492615695108145656",
-          "baseUrl": "https://zonatmo.org",
-          "lang": "es"
+          "lang": "es",
+          "baseUrl": "https://zonatmo.org"
         }
       ],
-      "hash": "c0d98cd8ec8479bea1a659757a4bf46cf5f0de4fee158fc7a2b31d97122fda96",
-      "size": 677.48
+      "hash": "91dac66588920622cb5c90e5b4e4fbfff3b6446f09fada7659145b0d6cb0de2d",
+      "size": 680.61
     },
     {
       "name": "TMOHentai",
@@ -206,14 +208,14 @@
       "hasChangelog": 0,
       "sources": [
         {
+          "id": 8385948079634749158,
           "name": "TMOHentai",
-          "id": "8385948079634749158",
-          "baseUrl": "https://tmohentai.app",
-          "lang": "es"
+          "lang": "es",
+          "baseUrl": "https://tmohentai.app"
         }
       ],
-      "hash": "64429da112c84aed5baea4f69484b27478d855787d84691001e90e7cb5964704",
-      "size": 678.52
+      "hash": "0258686677699c01710975b108370f65fe4e94cb0d82c0d0a6f2122f8a2cf629",
+      "size": 681.65
     }
   ]
 }
