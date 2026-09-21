@@ -1,9 +1,12 @@
 # 🧩 Yomori Extensions Repository
 
-Repositorio oficial e independiente de extensiones y scrapers para **Yomori Manga** y lectores compatibles.
+Repositorio oficial e independiente de extensiones y scrapers compatibles con **Yomori Manga**, **Mihon**, **Komikku**, **Aniyomi** y todos los lectores basados en Tachiyomi.
 
 ## 🌐 URL del Repositorio (Manifest Oficial)
 
-Puedes agregar este repositorio en tu lector Yomori usando:
+Puedes agregar este repositorio en tu lector usando:
 
-https://raw.githubusercontent.com/cristoferapaza01-ai/yomori-extensions/main/index.json
+```text
+https://raw.githubusercontent.com/YomoriDev/extensions/repo/index.min.json
+```
+
