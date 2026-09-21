@@ -431,8 +431,8 @@
       "pkg": "eu.kanade.tachiyomi.extension.es.leercapitulo",
       "apk": "es-leercapitulo-release.apk",
       "lang": "es",
-      "code": 19,
-      "version": "1.4.19",
+      "code": 20,
+      "version": "1.4.20",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -446,7 +446,7 @@
       ],
       "hash": "a2d59ba527d9523703f0e37daac5c7b25c74f029aeefe2f61383c0f6a400f8c0",
       "size": 200.84,
-      "sha256": "7583ddd6c5fd83f8b0f62e4f097fda26fbbf2eddcd752731225138fb7b940882"
+      "sha256": "beb0872d182cc52306712d3ed4bc85b2de9595598ea9fe80df2d173ffe8fdb33"
     },
     {
       "name": "Ragnarok Scanlation",
