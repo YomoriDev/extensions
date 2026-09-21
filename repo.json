@@ -24,8 +24,8 @@
           "baseUrl": "https://mangadex.org"
         }
       ],
-      "hash": "929f58a02432d38888716f65fcd11b6f507df49a9099ac3cc133d64ef8ce8784",
-      "size": 680.43
+      "hash": "56b3692dc561cba68e4856e0bc943a3488ce10d514f63b8c20be3dd6f7f837eb",
+      "size": 714.52
     },
     {
       "name": "Ikigai Mangas",
@@ -45,8 +45,8 @@
           "baseUrl": "https://visorikigai.gettocaboca.com"
         }
       ],
-      "hash": "3a40c912cfa6c419d67d46402ebad86ec2889710a3386c695098a444a1e750c4",
-      "size": 678.8
+      "hash": "f9a579624a8311d22208e561dca8a5819b45ec1639f26a77d241e4f3161b0856",
+      "size": 705.95
     },
     {
       "name": "Manhwa Latino",
@@ -66,8 +66,8 @@
           "baseUrl": "https://manhwalatino.lat"
         }
       ],
-      "hash": "461e79baccef7004068908405382b3920f953a274afebe100af5597f6107354b",
-      "size": 679.16
+      "hash": "a73f4a0c98275f6adecd337d7c8011fcc8e6abe9954835c1ae3bd1708f26c623",
+      "size": 760.64
     },
     {
       "name": "MiauScan",
@@ -87,8 +87,8 @@
           "baseUrl": "https://leemiau.com"
         }
       ],
-      "hash": "9caa88c92fb36f3acb390a10e79d5257d8b9f1e8ebc2d4db855c42b3063284a7",
-      "size": 678.35
+      "hash": "55bf65ea96831fab52319b9d335e816c296b7b1d0122d832de7d542cf27171f3",
+      "size": 840.76
     },
     {
       "name": "Olympus Scanlation",
@@ -108,8 +108,8 @@
           "baseUrl": "https://olympusxyz.com"
         }
       ],
-      "hash": "02fb724d6ab45db45c3bf01b75562d73dc354427aa0b9d4a86e1a02755d84830",
-      "size": 677.35
+      "hash": "d09ea27e139bfd4bd81c4922f224f997f3746d821449f28a3ac7920f3bf6039e",
+      "size": 756.2
     },
     {
       "name": "Plot Twist No Fansub",
@@ -129,8 +129,8 @@
           "baseUrl": "https://plotnofansub.com"
         }
       ],
-      "hash": "de3091aebbcf5e6ffbda83cbfca1228ecc7803da24e751b414cb39bbf6e22f1b",
-      "size": 679.73
+      "hash": "96cfc0a0c68e64a93bd32edf4d737d2c01ae593a2dc91cdd47bad9782fdbe60e",
+      "size": 822.87
     },
     {
       "name": "RN Scanlation",
@@ -150,8 +150,8 @@
           "baseUrl": "https://rncalation.online"
         }
       ],
-      "hash": "2c24ca8ef4e7b84955f5afbdd194c8438bd8a287769f42022866246c7c65c119",
-      "size": 679.34
+      "hash": "bf417dcf190fe2f7129dd5d078665b1a962529a318e7da1ff5ded847cb9ce413",
+      "size": 686.54
     },
     {
       "name": "SkyMangas",
@@ -171,8 +171,8 @@
           "baseUrl": "https://skymangas.com"
         }
       ],
-      "hash": "87d74688b924022c306fd88d4e2cfcedcf29d493f1ba017624c68300ee0c8863",
-      "size": 679.45
+      "hash": "0c8af4d24063534fe264571c53e9e42ccc0ea80987a142a84b9e80d315dc315f",
+      "size": 761.93
     },
     {
       "name": "ZonaTMO",
@@ -192,8 +192,8 @@
           "baseUrl": "https://zonatmo.org"
         }
       ],
-      "hash": "fca80d3e6b1309f45d4115fbb47963f0f2c4edd3162a41c1ce70de435c7cc013",
-      "size": 680.61
+      "hash": "575c0866f3fb47720c75b6d16420650103c7bbc22c3eb9c3de642fef55505555",
+      "size": 731.62
     },
     {
       "name": "TMOHentai",
@@ -213,8 +213,8 @@
           "baseUrl": "https://tmohentai.app"
         }
       ],
-      "hash": "bab88a64d10e795494ce40b7573cc8e7e623bce7fa16889f83a21c86011f2c9b",
-      "size": 681.65
+      "hash": "d36ab2b15c5a8cec521084bce4a6c1d500787fc0ec2ab0734a366f4768c19b2e",
+      "size": 734.84
     }
   ]
 }
