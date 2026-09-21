@@ -12,7 +12,7 @@
       "apk": "all-mangadex-release.apk",
       "lang": "all",
       "code": 15,
-      "version": "1.5.0",
+      "version": "1.4.15",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -24,8 +24,8 @@
           "baseUrl": "https://mangadex.org"
         }
       ],
-      "hash": "f6f37bccb28c0c0e8e6a673cbc113e5925eb9c27449721500e04c7f10a0b42a6",
-      "size": 680.42
+      "hash": "929f58a02432d38888716f65fcd11b6f507df49a9099ac3cc133d64ef8ce8784",
+      "size": 680.43
     },
     {
       "name": "Ikigai Mangas",
@@ -33,7 +33,7 @@
       "apk": "es-ikigaimangas-release.apk",
       "lang": "es",
       "code": 14,
-      "version": "1.5.4",
+      "version": "1.4.14",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -45,7 +45,7 @@
           "baseUrl": "https://visorikigai.gettocaboca.com"
         }
       ],
-      "hash": "cfcc483392a1b82b55577b53e80607da6618be890878e1c23cf227c727e05c82",
+      "hash": "3a40c912cfa6c419d67d46402ebad86ec2889710a3386c695098a444a1e750c4",
       "size": 678.8
     },
     {
@@ -54,7 +54,7 @@
       "apk": "es-manhwalatino-release.apk",
       "lang": "es",
       "code": 12,
-      "version": "1.5.2",
+      "version": "1.4.12",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -66,7 +66,7 @@
           "baseUrl": "https://manhwalatino.lat"
         }
       ],
-      "hash": "7df46340287d15abcc6a277b0433a6c730658ab50d68b49bc7b500762433de0c",
+      "hash": "461e79baccef7004068908405382b3920f953a274afebe100af5597f6107354b",
       "size": 679.16
     },
     {
@@ -75,7 +75,7 @@
       "apk": "es-miauscan-release.apk",
       "lang": "es",
       "code": 11,
-      "version": "1.5.1",
+      "version": "1.4.11",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -87,7 +87,7 @@
           "baseUrl": "https://leemiau.com"
         }
       ],
-      "hash": "31eb3796a355decf4ff0640b3e33c118977d94d8e14390a6e59252a329fcc553",
+      "hash": "9caa88c92fb36f3acb390a10e79d5257d8b9f1e8ebc2d4db855c42b3063284a7",
       "size": 678.35
     },
     {
@@ -96,7 +96,7 @@
       "apk": "es-olympusscanlation-release.apk",
       "lang": "es",
       "code": 16,
-      "version": "1.5.6",
+      "version": "1.4.16",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -108,8 +108,8 @@
           "baseUrl": "https://olympusxyz.com"
         }
       ],
-      "hash": "7b747e5560bbd0961ef639c6657831e259296757b9546aa7284abde71abf26de",
-      "size": 681.31
+      "hash": "02fb724d6ab45db45c3bf01b75562d73dc354427aa0b9d4a86e1a02755d84830",
+      "size": 677.35
     },
     {
       "name": "Plot Twist No Fansub",
@@ -117,7 +117,7 @@
       "apk": "es-plottwistnofansub-release.apk",
       "lang": "es",
       "code": 11,
-      "version": "1.5.1",
+      "version": "1.4.11",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -129,8 +129,8 @@
           "baseUrl": "https://plotnofansub.com"
         }
       ],
-      "hash": "9b3d837a8fcf5cf817c6211fc745217eaad186550ebb5cf4a871d9d55bc9850d",
-      "size": 679.72
+      "hash": "de3091aebbcf5e6ffbda83cbfca1228ecc7803da24e751b414cb39bbf6e22f1b",
+      "size": 679.73
     },
     {
       "name": "RN Scanlation",
@@ -138,7 +138,7 @@
       "apk": "es-rnscanlation-release.apk",
       "lang": "es",
       "code": 12,
-      "version": "1.5.2",
+      "version": "1.4.12",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -150,7 +150,7 @@
           "baseUrl": "https://rncalation.online"
         }
       ],
-      "hash": "73e30cb4cb3e4ebdea6bc8cbafb9b39f30e3e49bbe02ee42bda34e8814b2b277",
+      "hash": "2c24ca8ef4e7b84955f5afbdd194c8438bd8a287769f42022866246c7c65c119",
       "size": 679.34
     },
     {
@@ -159,7 +159,7 @@
       "apk": "es-skymangas-release.apk",
       "lang": "es",
       "code": 13,
-      "version": "1.5.3",
+      "version": "1.4.13",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -171,7 +171,7 @@
           "baseUrl": "https://skymangas.com"
         }
       ],
-      "hash": "f90f0a557ae16289ae1eae30fccd6d66553bcf0a7ea9b084a796578aed647244",
+      "hash": "87d74688b924022c306fd88d4e2cfcedcf29d493f1ba017624c68300ee0c8863",
       "size": 679.45
     },
     {
@@ -180,7 +180,7 @@
       "apk": "es-zonatmo-release.apk",
       "lang": "es",
       "code": 11,
-      "version": "1.5.1",
+      "version": "1.4.11",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -192,7 +192,7 @@
           "baseUrl": "https://zonatmo.org"
         }
       ],
-      "hash": "91dac66588920622cb5c90e5b4e4fbfff3b6446f09fada7659145b0d6cb0de2d",
+      "hash": "fca80d3e6b1309f45d4115fbb47963f0f2c4edd3162a41c1ce70de435c7cc013",
       "size": 680.61
     },
     {
@@ -201,7 +201,7 @@
       "apk": "es-tmohentai-release.apk",
       "lang": "es",
       "code": 11,
-      "version": "1.5.1",
+      "version": "1.4.11",
       "nsfw": 1,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -213,7 +213,7 @@
           "baseUrl": "https://tmohentai.app"
         }
       ],
-      "hash": "0258686677699c01710975b108370f65fe4e94cb0d82c0d0a6f2122f8a2cf629",
+      "hash": "bab88a64d10e795494ce40b7573cc8e7e623bce7fa16889f83a21c86011f2c9b",
       "size": 681.65
     }
   ]

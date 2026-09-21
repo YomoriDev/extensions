@@ -16,7 +16,7 @@
         },
         "extensionLib": "1.4",
         "versionCode": 15,
-        "versionName": "1.5.0",
+        "versionName": "1.4.15",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -36,7 +36,7 @@
         },
         "extensionLib": "1.4",
         "versionCode": 14,
-        "versionName": "1.5.4",
+        "versionName": "1.4.14",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -56,7 +56,7 @@
         },
         "extensionLib": "1.4",
         "versionCode": 12,
-        "versionName": "1.5.2",
+        "versionName": "1.4.12",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -76,7 +76,7 @@
         },
         "extensionLib": "1.4",
         "versionCode": 11,
-        "versionName": "1.5.1",
+        "versionName": "1.4.11",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -96,7 +96,7 @@
         },
         "extensionLib": "1.4",
         "versionCode": 16,
-        "versionName": "1.5.6",
+        "versionName": "1.4.16",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -116,7 +116,7 @@
         },
         "extensionLib": "1.4",
         "versionCode": 11,
-        "versionName": "1.5.1",
+        "versionName": "1.4.11",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -136,7 +136,7 @@
         },
         "extensionLib": "1.4",
         "versionCode": 12,
-        "versionName": "1.5.2",
+        "versionName": "1.4.12",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -156,7 +156,7 @@
         },
         "extensionLib": "1.4",
         "versionCode": 13,
-        "versionName": "1.5.3",
+        "versionName": "1.4.13",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -176,7 +176,7 @@
         },
         "extensionLib": "1.4",
         "versionCode": 11,
-        "versionName": "1.5.1",
+        "versionName": "1.4.11",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -196,7 +196,7 @@
         },
         "extensionLib": "1.4",
         "versionCode": 11,
-        "versionName": "1.5.1",
+        "versionName": "1.4.11",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
