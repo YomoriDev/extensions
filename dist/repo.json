@@ -158,8 +158,8 @@
       "pkg": "eu.kanade.tachiyomi.extension.es.skymangas",
       "apk": "es-skymangas-release.apk",
       "lang": "es",
-      "code": 13,
-      "version": "1.4.13",
+      "code": 14,
+      "version": "1.4.14",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -171,8 +171,9 @@
           "baseUrl": "https://skymangas.com"
         }
       ],
-      "hash": "0c8af4d24063534fe264571c53e9e42ccc0ea80987a142a84b9e80d315dc315f",
-      "size": 761.93
+      "hash": "5f79d35388132f485ac8ea4dfe28988cb5c13e82544b4ecaf581bfb491cf2bb2",
+      "size": 765.47,
+      "sha256": "5f79d35388132f485ac8ea4dfe28988cb5c13e82544b4ecaf581bfb491cf2bb2"
     },
     {
       "name": "ZonaTMO",
