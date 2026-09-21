@@ -781,6 +781,26 @@
           "baseUrl": "https://mhscans.com"
         }
       ]
+    },
+    {
+      "name": "Raven Scans",
+      "pkg": "eu.kanade.tachiyomi.extension.en.ravenscans",
+      "apk": "en-ravenscans-release.apk",
+      "lang": "en",
+      "code": 106005,
+      "version": "1.6.5",
+      "nsfw": 0,
+      "hasReadme": 0,
+      "hasChangelog": 0,
+      "sha256": "3e966a8db50bbff46eac9f279342d8d1e7919712e79a4518f796a5947eb6435f",
+      "sources": [
+        {
+          "name": "Raven Scans",
+          "lang": "en",
+          "id": "5160001879976399540",
+          "baseUrl": "https://ravenscans.org"
+        }
+      ]
     }
   ]
 }
