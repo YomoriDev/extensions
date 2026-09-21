@@ -761,6 +761,26 @@
       ],
       "hash": "6c4f1abc52e49866f5574d320d7130c64b5034b1dcf5ced8667a8b9d23aaa651",
       "size": 88.76
+    },
+    {
+      "name": "MHScans",
+      "pkg": "eu.kanade.tachiyomi.extension.es.mhscans",
+      "apk": "es-mhscans-release.apk",
+      "lang": "es",
+      "code": 104066,
+      "version": "1.4.66",
+      "nsfw": 0,
+      "hasReadme": 0,
+      "hasChangelog": 0,
+      "sha256": "6d120c27419e47bc89dd59a2f19da25cfea188e068a1709564faccd898811b62",
+      "sources": [
+        {
+          "name": "MHScans",
+          "lang": "es",
+          "id": "3253304651550496369",
+          "baseUrl": "https://mhscans.com"
+        }
+      ]
     }
   ]
 }
