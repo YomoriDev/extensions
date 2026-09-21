@@ -732,6 +732,26 @@
             "homeUrl": "https://nexusscanlation.com"
           }
         ]
+      },
+      {
+        "name": "MHScans",
+        "packageName": "eu.kanade.tachiyomi.extension.es.mhscans",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-mhscans-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.mhscans.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": "104066",
+        "versionName": "1.4.66",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": "3253304651550496369",
+            "name": "MHScans",
+            "language": "es",
+            "homeUrl": "https://mhscans.com"
+          }
+        ]
       }
     ]
   }
