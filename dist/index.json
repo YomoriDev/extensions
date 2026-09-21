@@ -421,12 +421,12 @@
           "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.leercapitulo.png"
         },
         "extensionLib": "1.4",
-        "versionCode": 104017,
-        "versionName": "1.4.17",
+        "versionCode": "18",
+        "versionName": "1.4.18",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
-            "id": 5621901596522308538,
+            "id": "5621901596522308538",
             "name": "LeerCapitulo",
             "language": "es",
             "homeUrl": "https://www.leercapitulo.co"
