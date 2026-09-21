@@ -206,6 +206,532 @@
             "homeUrl": "https://tmohentai.app"
           }
         ]
+      },
+      {
+        "name": "IMHentai",
+        "packageName": "eu.kanade.tachiyomi.extension.all.imhentai",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/all-imhentai-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.all.imhentai.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 106025,
+        "versionName": "1.6.25",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": 1797754663718263026,
+            "name": "IMHentai",
+            "language": "en",
+            "homeUrl": "https://imhentai.xxx"
+          },
+          {
+            "id": 2843704102372436364,
+            "name": "IMHentai",
+            "language": "ja",
+            "homeUrl": "https://imhentai.xxx"
+          },
+          {
+            "id": 1600533831542201953,
+            "name": "IMHentai",
+            "language": "es",
+            "homeUrl": "https://imhentai.xxx"
+          },
+          {
+            "id": 6518732459102419415,
+            "name": "IMHentai",
+            "language": "fr",
+            "homeUrl": "https://imhentai.xxx"
+          },
+          {
+            "id": 520535890722709208,
+            "name": "IMHentai",
+            "language": "ko",
+            "homeUrl": "https://imhentai.xxx"
+          },
+          {
+            "id": 341676138799608238,
+            "name": "IMHentai",
+            "language": "de",
+            "homeUrl": "https://imhentai.xxx"
+          },
+          {
+            "id": 7505608677115153818,
+            "name": "IMHentai",
+            "language": "ru",
+            "homeUrl": "https://imhentai.xxx"
+          },
+          {
+            "id": 3395462671769287908,
+            "name": "IMHentai",
+            "language": "all",
+            "homeUrl": "https://imhentai.xxx"
+          }
+        ]
+      },
+      {
+        "name": "MANGA Plus by SHUEISHA",
+        "packageName": "eu.kanade.tachiyomi.extension.all.mangaplus",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/all-mangaplus-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.all.mangaplus.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 106066,
+        "versionName": "1.6.66",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 1998944621602463790,
+            "name": "MANGA Plus by SHUEISHA",
+            "language": "en",
+            "homeUrl": "https://mangaplus.shueisha.co.jp"
+          },
+          {
+            "id": 1286073245950890830,
+            "name": "MANGA Plus by SHUEISHA",
+            "language": "es",
+            "homeUrl": "https://mangaplus.shueisha.co.jp"
+          },
+          {
+            "id": 7642759409549978864,
+            "name": "MANGA Plus by SHUEISHA",
+            "language": "fr",
+            "homeUrl": "https://mangaplus.shueisha.co.jp"
+          },
+          {
+            "id": 932564577108614127,
+            "name": "MANGA Plus by SHUEISHA",
+            "language": "id",
+            "homeUrl": "https://mangaplus.shueisha.co.jp"
+          },
+          {
+            "id": 3444662672352788181,
+            "name": "MANGA Plus by SHUEISHA",
+            "language": "pt-BR",
+            "homeUrl": "https://mangaplus.shueisha.co.jp"
+          },
+          {
+            "id": 3520485566708512181,
+            "name": "MANGA Plus by SHUEISHA",
+            "language": "ru",
+            "homeUrl": "https://mangaplus.shueisha.co.jp"
+          },
+          {
+            "id": 6345211913721743017,
+            "name": "MANGA Plus by SHUEISHA",
+            "language": "th",
+            "homeUrl": "https://mangaplus.shueisha.co.jp"
+          },
+          {
+            "id": 4696259977267090434,
+            "name": "MANGA Plus by SHUEISHA",
+            "language": "vi",
+            "homeUrl": "https://mangaplus.shueisha.co.jp"
+          },
+          {
+            "id": 1893513843840146580,
+            "name": "MANGA Plus by SHUEISHA",
+            "language": "de",
+            "homeUrl": "https://mangaplus.shueisha.co.jp"
+          }
+        ]
+      },
+      {
+        "name": "Webtoons.com",
+        "packageName": "eu.kanade.tachiyomi.extension.all.webtoons",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/all-webtoons-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.all.webtoons.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 104057,
+        "versionName": "1.4.57",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 2522335540328470744,
+            "name": "Webtoons.com",
+            "language": "en",
+            "homeUrl": "https://www.webtoons.com"
+          },
+          {
+            "id": 8749627068478740298,
+            "name": "Webtoons.com",
+            "language": "id",
+            "homeUrl": "https://www.webtoons.com"
+          },
+          {
+            "id": 3330861233813615504,
+            "name": "Webtoons.com",
+            "language": "th",
+            "homeUrl": "https://www.webtoons.com"
+          },
+          {
+            "id": 8664735734660636295,
+            "name": "Webtoons.com",
+            "language": "es",
+            "homeUrl": "https://www.webtoons.com"
+          },
+          {
+            "id": 8251758253314457060,
+            "name": "Webtoons.com",
+            "language": "fr",
+            "homeUrl": "https://www.webtoons.com"
+          },
+          {
+            "id": 2959982438613576472,
+            "name": "Webtoons.com",
+            "language": "zh-Hant",
+            "homeUrl": "https://www.webtoons.com"
+          },
+          {
+            "id": 1486822823904297379,
+            "name": "Webtoons.com",
+            "language": "de",
+            "homeUrl": "https://www.webtoons.com"
+          }
+        ]
+      },
+      {
+        "name": "InManga",
+        "packageName": "eu.kanade.tachiyomi.extension.es.inmanga",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-inmanga-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.inmanga.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 104004,
+        "versionName": "1.4.4",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 6963106975536326424,
+            "name": "InManga",
+            "language": "es",
+            "homeUrl": "https://inmanga.com"
+          }
+        ]
+      },
+      {
+        "name": "LeerCapitulo",
+        "packageName": "eu.kanade.tachiyomi.extension.es.leercapitulo",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-leercapitulo-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.leercapitulo.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 104017,
+        "versionName": "1.4.17",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 5621901596522308538,
+            "name": "LeerCapitulo",
+            "language": "es",
+            "homeUrl": "https://www.leercapitulo.co"
+          }
+        ]
+      },
+      {
+        "name": "Ragnarok Scanlation",
+        "packageName": "eu.kanade.tachiyomi.extension.es.ragnarokscanlation",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-ragnarokscanlation-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.ragnarokscanlation.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 104055,
+        "versionName": "1.4.55",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 1348827658894665970,
+            "name": "Ragnarok Scanlation",
+            "language": "es",
+            "homeUrl": "https://ragnarokscanlation.org"
+          }
+        ]
+      },
+      {
+        "name": "Ragna Scans",
+        "packageName": "eu.kanade.tachiyomi.extension.es.ragnascans",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-ragnascans-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.ragnascans.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 106001,
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 6003330990591348231,
+            "name": "Ragna Scans",
+            "language": "es",
+            "homeUrl": "https://lector.ragnascan.xyz"
+          }
+        ]
+      },
+      {
+        "name": "Manga Crab",
+        "packageName": "eu.kanade.tachiyomi.extension.es.mangacrab",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-mangacrab-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.mangacrab.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 104075,
+        "versionName": "1.4.75",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 6167683270485370369,
+            "name": "Manga Crab",
+            "language": "es",
+            "homeUrl": "https://mangacrab.org"
+          }
+        ]
+      },
+      {
+        "name": "Mundo Manhwa",
+        "packageName": "eu.kanade.tachiyomi.extension.es.mundomanhwa",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-mundomanhwa-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.mundomanhwa.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 106055,
+        "versionName": "1.6.55",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": 7121772696835562045,
+            "name": "Mundo Manhwa",
+            "language": "es",
+            "homeUrl": "https://mundomanhwa.com"
+          }
+        ]
+      },
+      {
+        "name": "LeerManhwas",
+        "packageName": "eu.kanade.tachiyomi.extension.es.leermanhwas",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-leermanhwas-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.leermanhwas.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 106001,
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": 8701445043633550960,
+            "name": "LeerManhwas",
+            "language": "es",
+            "homeUrl": "https://leermanhwas.com"
+          }
+        ]
+      },
+      {
+        "name": "DoujinHentai",
+        "packageName": "eu.kanade.tachiyomi.extension.es.doujinhentai",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-doujinhentai-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.doujinhentai.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 106001,
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": 3895171315878328595,
+            "name": "DoujinHentai",
+            "language": "es",
+            "homeUrl": "https://doujinhentai.net"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Scan",
+        "packageName": "eu.kanade.tachiyomi.extension.es.emperorscan",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-emperorscan-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.emperorscan.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 104065,
+        "versionName": "1.4.65",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 4562754350961964148,
+            "name": "Emperor Scan",
+            "language": "es",
+            "homeUrl": "https://imperiomanhua.com"
+          }
+        ]
+      },
+      {
+        "name": "EnchiladaScan",
+        "packageName": "eu.kanade.tachiyomi.extension.es.enchiladascan",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-enchiladascan-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.enchiladascan.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 104002,
+        "versionName": "1.4.2",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 8884198347282365114,
+            "name": "EnchiladaScan",
+            "language": "es",
+            "homeUrl": "https://enchiladascan.github.io/enchiladaweb"
+          }
+        ]
+      },
+      {
+        "name": "NekoScans",
+        "packageName": "eu.kanade.tachiyomi.extension.es.nekoscans",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-nekoscans-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.nekoscans.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 106008,
+        "versionName": "1.6.8",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": 8396340084333456288,
+            "name": "NekoScans",
+            "language": "es",
+            "homeUrl": "https://nekoproject.org"
+          }
+        ]
+      },
+      {
+        "name": "LectorManga.lat",
+        "packageName": "eu.kanade.tachiyomi.extension.es.lectormangalat",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-lectormangalat-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.lectormangalat.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 104056,
+        "versionName": "1.4.56",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": 3701714196729780447,
+            "name": "LectorManga.lat",
+            "language": "es",
+            "homeUrl": "https://lectormangass.com"
+          }
+        ]
+      },
+      {
+        "name": "ManhwaWeb",
+        "packageName": "eu.kanade.tachiyomi.extension.es.manhwaweb",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-manhwaweb-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.manhwaweb.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 106013,
+        "versionName": "1.6.13",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": 5943212552955476721,
+            "name": "ManhwaWeb",
+            "language": "es",
+            "homeUrl": "https://manhwaweb.com"
+          }
+        ]
+      },
+      {
+        "name": "SamuraiScan",
+        "packageName": "eu.kanade.tachiyomi.extension.es.manhuaonline",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-manhuaonline-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.manhuaonline.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 104069,
+        "versionName": "1.4.69",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 5713083996691468192,
+            "name": "SamuraiScan",
+            "language": "es",
+            "homeUrl": "https://samurai.j5z.xyz"
+          }
+        ]
+      },
+      {
+        "name": "Koinobori Scan",
+        "packageName": "eu.kanade.tachiyomi.extension.es.koinoboriscan",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-koinoboriscan-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.koinoboriscan.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 104040,
+        "versionName": "1.4.40",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": 5873846881094044177,
+            "name": "Koinobori Scan",
+            "language": "es",
+            "homeUrl": "https://visorkoi.com"
+          }
+        ]
+      },
+      {
+        "name": "Toon-es",
+        "packageName": "eu.kanade.tachiyomi.extension.es.toones",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-toones-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.toones.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 106055,
+        "versionName": "1.6.55",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": 5035285034268559598,
+            "name": "Toon-es",
+            "language": "es",
+            "homeUrl": "https://toon-es.com"
+          }
+        ]
+      },
+      {
+        "name": "NexusScanlation",
+        "packageName": "eu.kanade.tachiyomi.extension.es.nexusscanlation",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/apk/es-nexusscanlation-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.nexusscanlation.png"
+        },
+        "extensionLib": "1.4",
+        "versionCode": 106005,
+        "versionName": "1.6.5",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": 4086183896761281232,
+            "name": "NexusScanlation",
+            "language": "es",
+            "homeUrl": "https://nexusscanlation.com"
+          }
+        ]
       }
     ]
   }
