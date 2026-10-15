@@ -594,7 +594,7 @@
     "chapterNameSelector": "a",
     "chapterUrlSelector": "a",
     "chapterDateSelector": ".chapter-release-date, i, time",
-    "pageListSelector": ".wp-manga-chapter-img, .page-break img, .reading-content img",
+    "pageListSelector": ".wp-manga-chapter-img, .page-break img, .page-break.no-gaps img, .reading-content .page-break img, .reading-content img",
     "pageImageAttr": "src, data-src, data-lazy-src",
     "detailsDescriptionSelector": ".description-summary .summary__content, .summary__content, .manga-excerpt",
     "detailsGenreSelector": ".genres-content a, .genres a",
@@ -602,7 +602,7 @@
     "detailsArtistSelector": ".artist-content a",
     "detailsStatusSelector": ".post-status .summary-content",
     "detailsCoverSelector": ".summary_image img, .tab-summary img",
-    "version": "1.0.7"
+    "version": "1.0.8"
   },
   {
     "id": 7857447596453391532,
