@@ -364,13 +364,16 @@ export class OlympusExtension extends BaseExtension {
       console.warn('[OlympusExtension] Error obteniendo metadata API:', e.message);
     }
 
-    // 2. Obtener capítulos completos desde panel API
+    // 2. Obtener capítulos completos desde API (primero dominio principal, luego panel)
     let chapters = [];
     try {
-      const apiUrl = `https://panel.olympusxyz.com/api/series/${targetSlug}/chapters`;
-      let res = await fetch(`${apiUrl}?page=1`, { headers });
-      if (res.status !== 200 && targetSlug !== rawSlug) {
-        res = await fetch(`https://panel.olympusxyz.com/api/series/${rawSlug}/chapters?page=1`, { headers });
+      const apiUrl = `${this.baseUrl}/api/series/${targetSlug}/chapters`;
+      let res = await fetch(`${apiUrl}?page=1&direction=desc&type=comic`, { headers });
+      if (!res || !res.ok) {
+        res = await fetch(`https://panel.olympusxyz.com/api/series/${targetSlug}/chapters?page=1&direction=desc&type=comic`, { headers }).catch(() => null);
+      }
+      if ((!res || !res.ok) && targetSlug !== rawSlug) {
+        res = await fetch(`${this.baseUrl}/api/series/${rawSlug}/chapters?page=1&direction=desc&type=comic`, { headers }).catch(() => null);
       }
 
       if (res.ok) {
@@ -382,7 +385,7 @@ export class OlympusExtension extends BaseExtension {
           const promises = [];
           for (let p = 2; p <= Math.min(totalPages, 25); p++) {
             promises.push(
-              fetch(`${apiUrl}?page=${p}`, { headers })
+              fetch(`${apiUrl}?page=${p}&direction=desc&type=comic`, { headers })
                 .then(r => r.json())
                 .then(d => d.data || [])
                 .catch(() => [])
@@ -455,11 +458,12 @@ export class OlympusExtension extends BaseExtension {
               if (url && !seen.has(url)) {
                 seen.add(url);
                 let name = a.textContent.trim().replace(/\s+/g, ' ');
+                if (name.toLowerCase().includes('empezar a leer') || name.toLowerCase().includes('start reading')) continue;
                 const numMatch = url.match(/capitulo\/(\d+)/);
                 domCaps.push({
                   id: numMatch ? numMatch[1] : '1',
                   name: name || 'Capítulo 1',
-                  chapterNumber: '1',
+                  chapterNumber: numMatch ? numMatch[1] : '1',
                   url,
                   date: ''
                 });
