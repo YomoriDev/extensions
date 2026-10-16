@@ -1,6 +1,6 @@
 [
   {
-    "id": 3895171315878329000,
+    "id": 3895171315878328595,
     "name": "DoujinHentai",
     "baseUrl": "https://doujinhentai.net",
     "lang": "es",
@@ -43,7 +43,7 @@
     "isNsfw": true
   },
   {
-    "id": 4562754350961964000,
+    "id": 4562754350961964148,
     "name": "Emperor Scan",
     "baseUrl": "https://imperiomanhua.com",
     "lang": "es",
@@ -83,7 +83,7 @@
     "detailsStatusSelector": ".post-status, .status, .ac-status"
   },
   {
-    "id": 8884198347282365000,
+    "id": 8884198347282365114,
     "name": "EnchiladaScan",
     "baseUrl": "https://enchilada.xyz",
     "lang": "es",
@@ -123,7 +123,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 3546919326830738400,
+    "id": 3546919326830738510,
     "name": "Ikigai Mangas",
     "baseUrl": "https://visorikigai.gettocaboca.com",
     "lang": "es",
@@ -163,7 +163,7 @@
     "detailsStatusSelector": ".status, .badge"
   },
   {
-    "id": 1600533831542201900,
+    "id": 1600533831542201953,
     "name": "IMHentai",
     "baseUrl": "https://imhentai.xxx",
     "lang": "es",
@@ -201,7 +201,7 @@
     "isNsfw": true
   },
   {
-    "id": 6963106975536327000,
+    "id": 6963106975536326424,
     "name": "InManga",
     "baseUrl": "https://inmanga.com",
     "lang": "es",
@@ -238,7 +238,7 @@
     "pageImageAttr": "data-src, src"
   },
   {
-    "id": 5873846881094045000,
+    "id": 5873846881094044177,
     "name": "Koinobori Scan",
     "baseUrl": "https://koinoboriscan.com",
     "lang": "es",
@@ -275,7 +275,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 3701714196729780000,
+    "id": 3701714196729780447,
     "name": "LectorManga.lat",
     "baseUrl": "https://lectormanga.lat",
     "lang": "es",
@@ -312,7 +312,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 5621901596522309000,
+    "id": 5621901596522308538,
     "name": "LeerCapitulo",
     "baseUrl": "https://www.leercapitulo.co",
     "lang": "es",
@@ -349,7 +349,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 8701445043633551000,
+    "id": 8701445043633550960,
     "name": "LeerManhwas",
     "baseUrl": "https://leermanhwas.com",
     "lang": "es",
@@ -386,7 +386,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 6167683270485371000,
+    "id": 6167683270485370369,
     "name": "Manga Crab",
     "baseUrl": "https://es.mangacrab.org",
     "lang": "es",
@@ -423,7 +423,7 @@
     "pageImageAttr": "src"
   },
   {
-    "id": 6404943692147160000,
+    "id": 6404943692147160087,
     "name": "MangaDex",
     "baseUrl": "https://mangadex.org",
     "lang": "all",
@@ -460,7 +460,7 @@
     "pageImageAttr": "src, data-src"
   },
   {
-    "id": 1286073245950890800,
+    "id": 1286073245950890830,
     "name": "MANGA Plus by SHUEISHA",
     "baseUrl": "https://mangaplus.shueisha.co.jp",
     "lang": "es",
@@ -497,7 +497,7 @@
     "pageImageAttr": "src, data-src"
   },
   {
-    "id": 2214735443598445000,
+    "id": 2214735443598445048,
     "name": "Manhwa Latino",
     "baseUrl": "https://manhwalatino.org",
     "lang": "es",
@@ -534,7 +534,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 5943212552955477000,
+    "id": 5943212552955476721,
     "name": "ManhwaWeb",
     "baseUrl": "https://manhwa-web.com",
     "lang": "es",
@@ -573,7 +573,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 3253304651550496300,
+    "id": 3253304651550496369,
     "name": "MHScans",
     "baseUrl": "https://mhscans.com",
     "lang": "es",
@@ -605,7 +605,7 @@
     "version": "1.0.8"
   },
   {
-    "id": 7857447596453391000,
+    "id": 7857447596453391532,
     "name": "MiauScan",
     "baseUrl": "https://miauscan.com",
     "lang": "es",
@@ -642,7 +642,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 7121772696835562000,
+    "id": 7121772696835562045,
     "name": "Mundo Manhwa",
     "baseUrl": "https://mundomanhwa.com",
     "lang": "es",
@@ -679,7 +679,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 8396340084333456000,
+    "id": 8396340084333456288,
     "name": "NekoScans",
     "baseUrl": "https://nekoproject.org",
     "lang": "es",
@@ -716,7 +716,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 4086183896761281000,
+    "id": 4086183896761281232,
     "name": "NexusScanlation",
     "baseUrl": "https://nexusscan.com",
     "lang": "es",
@@ -753,21 +753,21 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 4384315126107049500,
+    "id": 4384315126107049412,
     "name": "Olympus Scanlation",
     "baseUrl": "https://olympusxyz.com",
     "lang": "es",
     "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.olympusscanlation.png",
-    "popularPath": "/api/series?page=%d",
-    "popularSelector": "figure, a[href*='/series/']",
+    "popularPath": "/",
+    "popularSelector": "a[href*='/series/']:has(img), a[href*='/series/']",
     "popularNextPageSelector": "",
-    "latestPath": "/api/series?page=%d",
-    "latestSelector": "figure, a[href*='/series/']",
+    "latestPath": "/",
+    "latestSelector": "a[href*='/series/']:has(img), a[href*='/series/']",
     "latestNextPageSelector": "",
-    "searchPath": "/api/series?page=%d",
-    "searchSelector": "figure, a[href*='/series/']",
+    "searchPath": "/",
+    "searchSelector": "a[href*='/series/']:has(img), a[href*='/series/']",
     "searchNextPageSelector": "",
-    "mangaTitleSelector": "figcaption, h2, h3, h4, p, span, .title",
+    "mangaTitleSelector": "h3, h4, p, span, .title",
     "mangaThumbnailSelector": "img",
     "mangaThumbnailAttr": "src",
     "mangaUrlSelector": "a[href*='/series/']",
@@ -782,8 +782,8 @@
     "chapterDateSelector": "time",
     "pageListSelector": "img[src*='imagesolymp.xyz'], img[src*='media.imagesolymp.xyz'], img",
     "pageUrlAttr": "src",
-    "version": "1.2.1",
-    "titleSelector": "figcaption, h2, h3, h4, span, p",
+    "version": "1.3.0",
+    "titleSelector": "h2, h3, h4, span, p",
     "linkSelector": "a",
     "coverSelector": "img",
     "chapterNameSelector": "a",
@@ -793,7 +793,7 @@
     "pageUrlSelector": "src, data-src"
   },
   {
-    "id": 6935004473807791000,
+    "id": 6935004473807791201,
     "name": "Plot Twist No Fansub",
     "baseUrl": "https://plotnofansub.com",
     "lang": "es",
@@ -830,7 +830,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 1348827658894666000,
+    "id": 1348827658894665970,
     "name": "Ragnarok Scanlation",
     "baseUrl": "https://ragnarokscanlation.org",
     "lang": "es",
@@ -867,7 +867,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 6003330990591349000,
+    "id": 6003330990591348231,
     "name": "Ragna Scans",
     "baseUrl": "https://lector.ragnascan.xyz",
     "lang": "es",
@@ -904,7 +904,7 @@
     "pageImageAttr": "data-src, src"
   },
   {
-    "id": 5160001879976400000,
+    "id": 5160001879976399540,
     "name": "Raven Scans",
     "baseUrl": "https://ravenscans.org",
     "lang": "en",
@@ -941,7 +941,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 1399856434765612500,
+    "id": 1399856434765612568,
     "name": "RN Scanlation",
     "baseUrl": "https://rncalation.online",
     "lang": "es",
@@ -979,7 +979,7 @@
     "useWebView": true
   },
   {
-    "id": 5713083996691468000,
+    "id": 5713083996691468192,
     "name": "SamuraiScan",
     "baseUrl": "https://samurai.j5z.xyz",
     "lang": "es",
@@ -1016,7 +1016,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 8713024885922120000,
+    "id": 8713024885922119175,
     "name": "SkyMangas",
     "baseUrl": "https://skymangas.com",
     "lang": "es",
@@ -1070,7 +1070,7 @@
     "mangaTitleSelector": ".manga-card__title, h3",
     "mangaThumbnailSelector": "img.manga-card__cover, img",
     "mangaThumbnailAttr": "src",
-    "mangaUrlSelector": "a.manga-card, a[href*='/library/']",
+    "mangaUrlSelector": "a.manga-card, a[href*=\"/library/\"]",
     "mangaDetailsAuthorSelector": ".book-author, .manga-card__meta-author span, a[href*='/groups/'], a[href*='/author/']",
     "mangaDetailsArtistSelector": "a[href*='/artist/'], a[href*='/author/']",
     "mangaDetailsDescriptionSelector": ".panel-body, .manga-description, p",
@@ -1084,7 +1084,7 @@
     "pageUrlSelector": "data-src, src",
     "version": "1.2.2",
     "titleSelector": ".manga-card__title, h3",
-    "linkSelector": "a.manga-card, a[href*='/library/']",
+    "linkSelector": "a.manga-card, a[href*=\"/library/\"]",
     "coverSelector": "img.manga-card__cover, img",
     "chapterNameSelector": "a",
     "pageImageAttr": "data-src, src",
@@ -1097,7 +1097,7 @@
     "detailsStatusSelector": ""
   },
   {
-    "id": 5035285034268559000,
+    "id": 5035285034268559598,
     "name": "Toon-es",
     "baseUrl": "https://toones.com",
     "lang": "es",
@@ -1134,7 +1134,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 8664735734660637000,
+    "id": 8664735734660636295,
     "name": "Webtoons.com",
     "baseUrl": "https://www.webtoons.com",
     "lang": "es",
@@ -1171,7 +1171,7 @@
     "pageImageAttr": "src, data-src"
   },
   {
-    "id": 8492615695108145000,
+    "id": 8492615695108145656,
     "name": "ZonaTMO",
     "baseUrl": "https://zonatmo.org",
     "lang": "es",
