@@ -1016,7 +1016,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src"
   },
   {
-    "id": 8713024885922119175,
+    "id": 8713024885922120000,
     "name": "SkyMangas",
     "baseUrl": "https://skymangas.com",
     "lang": "es",
@@ -1039,17 +1039,17 @@
     "mangaDetailsDescriptionSelector": "p, .summary",
     "mangaDetailsGenreSelector": ".hero__badges a, .hero__tags a, .badge, .tag-chip",
     "mangaDetailsStatusSelector": ".hero__chip--status, .status",
-    "chapterListSelector": "a.chapter-item, a[href*='/leer/']",
-    "chapterTitleSelector": ".chapter-preview__cap, .chapter-item__title, a, span",
+    "chapterListSelector": "a.chapter-item",
+    "chapterTitleSelector": ".chapter-item__num, .chapter-preview__cap, .chapter-item__title, a, span",
     "chapterUrlSelector": "a",
     "chapterDateSelector": ".chapter-item__date, time, .date",
     "pageListSelector": "img",
     "pageUrlSelector": "src",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "titleSelector": ".manhua-card__title, h3, .title, a",
     "linkSelector": "a",
     "coverSelector": "img.manhua-card__img, img",
-    "chapterNameSelector": ".chapter-preview__cap, .chapter-item__title, a, span",
+    "chapterNameSelector": ".chapter-item__num, .chapter-preview__cap, .chapter-item__title, a, span",
     "pageImageAttr": "src"
   },
   {
