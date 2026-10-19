@@ -367,10 +367,10 @@ export class OlympusExtension extends BaseExtension {
     // 2. Obtener capítulos completos desde panel API
     let chapters = [];
     try {
-      const apiUrl = `https://panel.olympusxyz.com/api/series/${targetSlug}/chapters`;
+      const apiUrl = `${this.baseUrl}/api/series/${targetSlug}/chapters`;
       let res = await fetch(`${apiUrl}?page=1`, { headers });
       if (res.status !== 200 && targetSlug !== rawSlug) {
-        res = await fetch(`https://panel.olympusxyz.com/api/series/${rawSlug}/chapters?page=1`, { headers });
+        res = await fetch(`${this.baseUrl}/api/series/${rawSlug}/chapters?page=1`, { headers });
       }
 
       if (res.ok) {

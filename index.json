@@ -95,8 +95,8 @@
           "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.olympusscanlation.png"
         },
         "extensionLib": "1.4",
-        "versionCode": 16,
-        "versionName": "1.4.16",
+        "versionCode": 17,
+        "versionName": "1.4.17",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
@@ -105,7 +105,12 @@
             "language": "es",
             "homeUrl": "https://olympusxyz.com"
           }
-        ]
+        ],
+        "apk": "es-olympusscanlation-release.apk",
+        "code": 17,
+        "version": "1.4.17",
+        "hash": "a1243fe9b536f118bb432afc307b375fef48e8f9a5ea24520cb217b4b535bde4",
+        "size": 757.21
       },
       {
         "name": "Plot Twist No Fansub",
