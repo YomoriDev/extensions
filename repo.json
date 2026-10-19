@@ -12,13 +12,13 @@
       "apk": "all-mangadex-release.apk",
       "lang": "all",
       "code": 15,
-      "version": "1.4.15",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 6404943692147160087,
+          "id": 6404943692147160000,
           "name": "MangaDex",
           "lang": "all",
           "baseUrl": "https://mangadex.org"
@@ -33,13 +33,13 @@
       "apk": "es-ikigaimangas-release.apk",
       "lang": "es",
       "code": 14,
-      "version": "1.4.14",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 3546919326830738510,
+          "id": 3546919326830738400,
           "name": "Ikigai Mangas",
           "lang": "es",
           "baseUrl": "https://visorikigai.gettocaboca.com"
@@ -54,13 +54,13 @@
       "apk": "es-manhwalatino-release.apk",
       "lang": "es",
       "code": 12,
-      "version": "1.4.12",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 2214735443598445048,
+          "id": 2214735443598445000,
           "name": "Manhwa Latino",
           "lang": "es",
           "baseUrl": "https://manhwalatino.lat"
@@ -75,13 +75,13 @@
       "apk": "es-miauscan-release.apk",
       "lang": "es",
       "code": 11,
-      "version": "1.4.11",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 7857447596453391532,
+          "id": 7857447596453391000,
           "name": "MiauScan",
           "lang": "es",
           "baseUrl": "https://leemiau.com"
@@ -102,7 +102,7 @@
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 4384315126107049412,
+          "id": 4384315126107049500,
           "name": "Olympus Scanlation",
           "lang": "es",
           "baseUrl": "https://olympusxyz.com"
@@ -119,13 +119,13 @@
       "apk": "es-plottwistnofansub-release.apk",
       "lang": "es",
       "code": 11,
-      "version": "1.4.11",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 6935004473807791201,
+          "id": 6935004473807791000,
           "name": "Plot Twist No Fansub",
           "lang": "es",
           "baseUrl": "https://plotnofansub.com"
@@ -140,13 +140,13 @@
       "apk": "es-rnscanlation-release.apk",
       "lang": "es",
       "code": 12,
-      "version": "1.4.12",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 1399856434765612568,
+          "id": 1399856434765612500,
           "name": "RN Scanlation",
           "lang": "es",
           "baseUrl": "https://rncalation.online"
@@ -161,13 +161,13 @@
       "apk": "es-skymangas-release.apk",
       "lang": "es",
       "code": 14,
-      "version": "1.4.14",
+      "version": "2.0.2",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 8713024885922119175,
+          "id": 8713024885922120000,
           "name": "SkyMangas",
           "lang": "es",
           "baseUrl": "https://skymangas.com"
@@ -183,13 +183,13 @@
       "apk": "es-zonatmo-release.apk",
       "lang": "es",
       "code": 11,
-      "version": "1.4.11",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 8492615695108145656,
+          "id": 8492615695108145000,
           "name": "ZonaTMO",
           "lang": "es",
           "baseUrl": "https://zonatmo.org"
@@ -204,13 +204,13 @@
       "apk": "es-tmohentai-release.apk",
       "lang": "es",
       "code": 11,
-      "version": "1.4.11",
+      "version": "2.0.0",
       "nsfw": 1,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 8385948079634749158,
+          "id": 8385948079634749000,
           "name": "TMOHentai",
           "lang": "es",
           "baseUrl": "https://tmohentai.app"
@@ -225,55 +225,55 @@
       "apk": "all-imhentai-release.apk",
       "lang": "all",
       "code": 106025,
-      "version": "1.6.25",
+      "version": "2.0.0",
       "nsfw": 1,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 1797754663718263026,
+          "id": 1797754663718263000,
           "name": "IMHentai",
           "lang": "en",
           "baseUrl": "https://imhentai.xxx"
         },
         {
-          "id": 2843704102372436364,
+          "id": 2843704102372436500,
           "name": "IMHentai",
           "lang": "ja",
           "baseUrl": "https://imhentai.xxx"
         },
         {
-          "id": 1600533831542201953,
+          "id": 1600533831542201900,
           "name": "IMHentai",
           "lang": "es",
           "baseUrl": "https://imhentai.xxx"
         },
         {
-          "id": 6518732459102419415,
+          "id": 6518732459102419000,
           "name": "IMHentai",
           "lang": "fr",
           "baseUrl": "https://imhentai.xxx"
         },
         {
-          "id": 520535890722709208,
+          "id": 520535890722709200,
           "name": "IMHentai",
           "lang": "ko",
           "baseUrl": "https://imhentai.xxx"
         },
         {
-          "id": 341676138799608238,
+          "id": 341676138799608260,
           "name": "IMHentai",
           "lang": "de",
           "baseUrl": "https://imhentai.xxx"
         },
         {
-          "id": 7505608677115153818,
+          "id": 7505608677115153000,
           "name": "IMHentai",
           "lang": "ru",
           "baseUrl": "https://imhentai.xxx"
         },
         {
-          "id": 3395462671769287908,
+          "id": 3395462671769287700,
           "name": "IMHentai",
           "lang": "all",
           "baseUrl": "https://imhentai.xxx"
@@ -288,68 +288,68 @@
       "apk": "all-mangaplus-release.apk",
       "lang": "all",
       "code": 106066,
-      "version": "1.6.66",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 1998944621602463790,
+          "id": 1998944621602463700,
           "name": "MANGA Plus by SHUEISHA",
           "lang": "en",
           "baseUrl": "https://mangaplus.shueisha.co.jp"
         },
         {
-          "id": 1286073245950890830,
+          "id": 1286073245950890800,
           "name": "MANGA Plus by SHUEISHA",
           "lang": "es",
           "baseUrl": "https://mangaplus.shueisha.co.jp"
         },
         {
-          "id": 7642759409549978864,
+          "id": 7642759409549979000,
           "name": "MANGA Plus by SHUEISHA",
           "lang": "fr",
           "baseUrl": "https://mangaplus.shueisha.co.jp"
         },
         {
-          "id": 932564577108614127,
+          "id": 932564577108614100,
           "name": "MANGA Plus by SHUEISHA",
           "lang": "id",
           "baseUrl": "https://mangaplus.shueisha.co.jp"
         },
         {
-          "id": 3444662672352788181,
+          "id": 3444662672352788000,
           "name": "MANGA Plus by SHUEISHA",
           "lang": "pt-BR",
           "baseUrl": "https://mangaplus.shueisha.co.jp"
         },
         {
-          "id": 3520485566708512181,
+          "id": 3520485566708512300,
           "name": "MANGA Plus by SHUEISHA",
           "lang": "ru",
           "baseUrl": "https://mangaplus.shueisha.co.jp"
         },
         {
-          "id": 6345211913721743017,
+          "id": 6345211913721743000,
           "name": "MANGA Plus by SHUEISHA",
           "lang": "th",
           "baseUrl": "https://mangaplus.shueisha.co.jp"
         },
         {
-          "id": 4696259977267090434,
+          "id": 4696259977267090000,
           "name": "MANGA Plus by SHUEISHA",
           "lang": "vi",
           "baseUrl": "https://mangaplus.shueisha.co.jp"
         },
         {
-          "id": 1893513843840146580,
+          "id": 1893513843840146700,
           "name": "MANGA Plus by SHUEISHA",
           "lang": "de",
           "baseUrl": "https://mangaplus.shueisha.co.jp"
         }
       ],
       "hash": "b48663423b2c81b9b611a571bd1cdd785a5cd888fe65a7879e680817f3186f71",
-      "size": 81.0
+      "size": 81
     },
     {
       "name": "Webtoons.com",
@@ -357,49 +357,49 @@
       "apk": "all-webtoons-release.apk",
       "lang": "all",
       "code": 104057,
-      "version": "1.4.57",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 2522335540328470744,
+          "id": 2522335540328470500,
           "name": "Webtoons.com",
           "lang": "en",
           "baseUrl": "https://www.webtoons.com"
         },
         {
-          "id": 8749627068478740298,
+          "id": 8749627068478740000,
           "name": "Webtoons.com",
           "lang": "id",
           "baseUrl": "https://www.webtoons.com"
         },
         {
-          "id": 3330861233813615504,
+          "id": 3330861233813615600,
           "name": "Webtoons.com",
           "lang": "th",
           "baseUrl": "https://www.webtoons.com"
         },
         {
-          "id": 8664735734660636295,
+          "id": 8664735734660637000,
           "name": "Webtoons.com",
           "lang": "es",
           "baseUrl": "https://www.webtoons.com"
         },
         {
-          "id": 8251758253314457060,
+          "id": 8251758253314457000,
           "name": "Webtoons.com",
           "lang": "fr",
           "baseUrl": "https://www.webtoons.com"
         },
         {
-          "id": 2959982438613576472,
+          "id": 2959982438613576700,
           "name": "Webtoons.com",
           "lang": "zh-Hant",
           "baseUrl": "https://www.webtoons.com"
         },
         {
-          "id": 1486822823904297379,
+          "id": 1486822823904297500,
           "name": "Webtoons.com",
           "lang": "de",
           "baseUrl": "https://www.webtoons.com"
@@ -414,13 +414,13 @@
       "apk": "es-inmanga-release.apk",
       "lang": "es",
       "code": 104004,
-      "version": "1.4.4",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 6963106975536326424,
+          "id": 6963106975536327000,
           "name": "InManga",
           "lang": "es",
           "baseUrl": "https://inmanga.com"
@@ -435,13 +435,13 @@
       "apk": "es-leercapitulo-release.apk",
       "lang": "es",
       "code": 104022,
-      "version": "1.4.22",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 5621901596522308538,
+          "id": 5621901596522309000,
           "name": "LeerCapitulo",
           "lang": "es",
           "baseUrl": "https://www.leercapitulo.co"
@@ -457,20 +457,20 @@
       "apk": "es-ragnarokscanlation-release.apk",
       "lang": "es",
       "code": 104055,
-      "version": "1.4.55",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 1348827658894665970,
+          "id": 1348827658894666000,
           "name": "Ragnarok Scanlation",
           "lang": "es",
           "baseUrl": "https://ragnarokscanlation.org"
         }
       ],
       "hash": "5bd60bb5c637fbe6374fa07daf2f5def59faf60efd1a72de764f1868abfb006f",
-      "size": 117.0
+      "size": 117
     },
     {
       "name": "Ragna Scans",
@@ -478,13 +478,13 @@
       "apk": "es-ragnascans-release.apk",
       "lang": "es",
       "code": 106001,
-      "version": "1.6.1",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 6003330990591348231,
+          "id": 6003330990591349000,
           "name": "Ragna Scans",
           "lang": "es",
           "baseUrl": "https://lector.ragnascan.xyz"
@@ -499,20 +499,20 @@
       "apk": "es-mangacrab-release.apk",
       "lang": "es",
       "code": 104075,
-      "version": "1.4.75",
+      "version": "2.0.1",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 6167683270485370369,
+          "id": 6167683270485371000,
           "name": "Manga Crab",
           "lang": "es",
           "baseUrl": "https://mangacrab.org"
         }
       ],
       "hash": "284f128e76bacc04e6d965ed744fd02e538b1d97803fbfd4879a3e420b5f6349",
-      "size": 93.0
+      "size": 93
     },
     {
       "name": "Mundo Manhwa",
@@ -520,13 +520,13 @@
       "apk": "es-mundomanhwa-release.apk",
       "lang": "es",
       "code": 106055,
-      "version": "1.6.55",
+      "version": "2.0.0",
       "nsfw": 1,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 7121772696835562045,
+          "id": 7121772696835562000,
           "name": "Mundo Manhwa",
           "lang": "es",
           "baseUrl": "https://mundomanhwa.com"
@@ -541,13 +541,13 @@
       "apk": "es-leermanhwas-release.apk",
       "lang": "es",
       "code": 106001,
-      "version": "1.6.1",
+      "version": "2.0.0",
       "nsfw": 1,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 8701445043633550960,
+          "id": 8701445043633551000,
           "name": "LeerManhwas",
           "lang": "es",
           "baseUrl": "https://leermanhwas.com"
@@ -562,13 +562,13 @@
       "apk": "es-doujinhentai-release.apk",
       "lang": "es",
       "code": 106001,
-      "version": "1.6.1",
+      "version": "2.0.0",
       "nsfw": 1,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 3895171315878328595,
+          "id": 3895171315878329000,
           "name": "DoujinHentai",
           "lang": "es",
           "baseUrl": "https://doujinhentai.net"
@@ -583,20 +583,20 @@
       "apk": "es-emperorscan-release.apk",
       "lang": "es",
       "code": 104065,
-      "version": "1.4.65",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 4562754350961964148,
+          "id": 4562754350961964000,
           "name": "Emperor Scan",
           "lang": "es",
           "baseUrl": "https://imperiomanhua.com"
         }
       ],
       "hash": "abd5611c524bd0fd837ed4c1ddfb59bbeaf5644b7f53ff5491dce1f682c5afb1",
-      "size": 125.0
+      "size": 125
     },
     {
       "name": "EnchiladaScan",
@@ -604,13 +604,13 @@
       "apk": "es-enchiladascan-release.apk",
       "lang": "es",
       "code": 104002,
-      "version": "1.4.2",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 8884198347282365114,
+          "id": 8884198347282365000,
           "name": "EnchiladaScan",
           "lang": "es",
           "baseUrl": "https://enchiladascan.github.io/enchiladaweb"
@@ -625,13 +625,13 @@
       "apk": "es-nekoscans-release.apk",
       "lang": "es",
       "code": 106008,
-      "version": "1.6.8",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 8396340084333456288,
+          "id": 8396340084333456000,
           "name": "NekoScans",
           "lang": "es",
           "baseUrl": "https://nekoproject.org"
@@ -646,20 +646,20 @@
       "apk": "es-lectormangalat-release.apk",
       "lang": "es",
       "code": 104056,
-      "version": "1.4.56",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 3701714196729780447,
+          "id": 3701714196729780000,
           "name": "LectorManga.lat",
           "lang": "es",
           "baseUrl": "https://lectormangass.com"
         }
       ],
       "hash": "69f9deb623f37d1d4a7f05196fcafaff6da09934892607bee9101888488a89f8",
-      "size": 81.0
+      "size": 81
     },
     {
       "name": "ManhwaWeb",
@@ -667,13 +667,13 @@
       "apk": "es-manhwaweb-release.apk",
       "lang": "es",
       "code": 106013,
-      "version": "1.6.13",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 5943212552955476721,
+          "id": 5943212552955477000,
           "name": "ManhwaWeb",
           "lang": "es",
           "baseUrl": "https://manhwaweb.com"
@@ -688,20 +688,20 @@
       "apk": "es-manhuaonline-release.apk",
       "lang": "es",
       "code": 104069,
-      "version": "1.4.69",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 5713083996691468192,
+          "id": 5713083996691468000,
           "name": "SamuraiScan",
           "lang": "es",
           "baseUrl": "https://samurai.j5z.xyz"
         }
       ],
       "hash": "6f7bc0588d93a333470e78a05a0f5ab4f7259b8ce7d7e7f562be41699c9532a8",
-      "size": 81.0
+      "size": 81
     },
     {
       "name": "Koinobori Scan",
@@ -709,13 +709,13 @@
       "apk": "es-koinoboriscan-release.apk",
       "lang": "es",
       "code": 104040,
-      "version": "1.4.40",
+      "version": "2.0.0",
       "nsfw": 1,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 5873846881094044177,
+          "id": 5873846881094045000,
           "name": "Koinobori Scan",
           "lang": "es",
           "baseUrl": "https://visorkoi.com"
@@ -730,13 +730,13 @@
       "apk": "es-toones-release.apk",
       "lang": "es",
       "code": 106055,
-      "version": "1.6.55",
+      "version": "2.0.0",
       "nsfw": 1,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 5035285034268559598,
+          "id": 5035285034268559000,
           "name": "Toon-es",
           "lang": "es",
           "baseUrl": "https://toon-es.com"
@@ -751,13 +751,13 @@
       "apk": "es-nexusscanlation-release.apk",
       "lang": "es",
       "code": 106005,
-      "version": "1.6.5",
+      "version": "2.0.0",
       "nsfw": 1,
       "hasReadme": 0,
       "hasChangelog": 0,
       "sources": [
         {
-          "id": 4086183896761281232,
+          "id": 4086183896761281000,
           "name": "NexusScanlation",
           "lang": "es",
           "baseUrl": "https://nexusscanlation.com"
@@ -772,7 +772,7 @@
       "apk": "es-mhscans-release.apk",
       "lang": "es",
       "code": 104066,
-      "version": "1.4.66",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -781,7 +781,7 @@
         {
           "name": "MHScans",
           "lang": "es",
-          "id": 3253304651550496369,
+          "id": 3253304651550496300,
           "baseUrl": "https://mhscans.com"
         }
       ]
@@ -792,7 +792,7 @@
       "apk": "en-ravenscans-release.apk",
       "lang": "en",
       "code": 106005,
-      "version": "1.6.5",
+      "version": "2.0.0",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -801,7 +801,7 @@
         {
           "name": "Raven Scans",
           "lang": "en",
-          "id": 5160001879976399540,
+          "id": 5160001879976400000,
           "baseUrl": "https://ravenscans.org"
         }
       ]

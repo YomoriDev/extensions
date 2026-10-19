@@ -20,6 +20,25 @@ app.use(morgan('dev'));
 // Servir scripts .js estáticos
 app.use('/extensions', express.static(path.join(rootDir, 'extensions')));
 
+// Endpoint de Reporte de Errores de Fuentes
+app.post('/api/report', (req, res) => {
+  try {
+    const report = req.body;
+    const projectReportDir = path.resolve(rootDir, '..', 'reports');
+    const localReportDir = path.join(rootDir, 'reports');
+    if (!fs.existsSync(projectReportDir)) fs.mkdirSync(projectReportDir, { recursive: true });
+    if (!fs.existsSync(localReportDir)) fs.mkdirSync(localReportDir, { recursive: true });
+
+    fs.writeFileSync(path.join(projectReportDir, 'ultimo_error.json'), JSON.stringify(report, null, 2), 'utf-8');
+    fs.writeFileSync(path.join(localReportDir, 'ultimo_error.json'), JSON.stringify(report, null, 2), 'utf-8');
+    console.log(`[REPORT] 🚨 Reporte recibido: ${report.sourceName || report.sourceId} - ${report.mangaTitle || report.type}`);
+    res.json({ success: true });
+  } catch (err) {
+    console.error('[REPORT] Error guardando reporte:', err);
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
 const getRegistry = () => {
   const registryPath = path.join(rootDir, 'config', 'registry.json');
   if (fs.existsSync(registryPath)) {
