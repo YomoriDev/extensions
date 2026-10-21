@@ -646,8 +646,8 @@
           "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.manhwaweb.png"
         },
         "extensionLib": "1.4",
-        "versionCode": 106014,
-        "versionName": "1.6.14",
+        "versionCode": 106015,
+        "versionName": "1.6.15",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
