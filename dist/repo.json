@@ -203,8 +203,8 @@
       "pkg": "eu.kanade.tachiyomi.extension.es.tmohentai",
       "apk": "es-tmohentai-release.apk",
       "lang": "es",
-      "code": 11,
-      "version": "1.4.11",
+      "code": 12,
+      "version": "1.4.12",
       "nsfw": 1,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -216,8 +216,8 @@
           "baseUrl": "https://tmohentai.app"
         }
       ],
-      "hash": "d36ab2b15c5a8cec521084bce4a6c1d500787fc0ec2ab0734a366f4768c19b2e",
-      "size": 734.84
+      "hash": "1a334b234d48e528c91932e708eb9b0089dc406f7db353180545598178c6c10e",
+      "size": 734.76
     },
     {
       "name": "IMHentai",
