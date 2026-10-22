@@ -200,8 +200,8 @@
           "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.tmohentai.png"
         },
         "extensionLib": "1.4",
-        "versionCode": 12,
-        "versionName": "1.4.12",
+        "versionCode": 13,
+        "versionName": "1.4.13",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
