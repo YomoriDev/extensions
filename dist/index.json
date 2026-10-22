@@ -486,15 +486,15 @@
           "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.mangacrab.png"
         },
         "extensionLib": "1.4",
-        "versionCode": 104075,
-        "versionName": "1.4.75",
+        "versionCode": 104076,
+        "versionName": "2.0.2",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
             "id": 6167683270485370369,
             "name": "Manga Crab",
             "language": "es",
-            "homeUrl": "https://mangacrab.org"
+            "homeUrl": "https://es.mangacrab.org"
           }
         ]
       },
