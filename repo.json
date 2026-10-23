@@ -582,8 +582,8 @@
       "pkg": "eu.kanade.tachiyomi.extension.es.emperorscan",
       "apk": "es-emperorscan-release.apk",
       "lang": "es",
-      "code": 104065,
-      "version": "2.0.0",
+      "code": 104066,
+      "version": "1.4.66",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -595,8 +595,10 @@
           "baseUrl": "https://imperiomanhua.com"
         }
       ],
-      "hash": "abd5611c524bd0fd837ed4c1ddfb59bbeaf5644b7f53ff5491dce1f682c5afb1",
-      "size": 125
+      "hash": "b563475558be28bcf7a3a742795575ba526be67c5df0856d3a11fd8740297fa5",
+      "size": 685.73,
+      "versionCode": 104066,
+      "versionName": "1.4.66"
     },
     {
       "name": "EnchiladaScan",
