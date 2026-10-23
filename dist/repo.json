@@ -670,8 +670,8 @@
       "pkg": "eu.kanade.tachiyomi.extension.es.manhwaweb",
       "apk": "es-manhwaweb-release.apk",
       "lang": "es",
-      "code": 106018,
-      "version": "1.6.18",
+      "code": 106019,
+      "version": "1.6.19",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -683,10 +683,10 @@
           "baseUrl": "https://manhwaweb.com"
         }
       ],
-      "hash": "5a00ee02f7a08cf78dd31ea27fafd6c50522f02faaf6803f9149f6c5da0ad841",
-      "size": 678.73,
-      "versionCode": 106018,
-      "versionName": "1.6.18"
+      "hash": "8fea58c3ca35ac5a78a0689f1d3b1134d60e89b8ec650be9222d6b1f697bc8e8",
+      "size": 678.87,
+      "versionCode": 106019,
+      "versionName": "1.6.19"
     },
     {
       "name": "SamuraiScan",
