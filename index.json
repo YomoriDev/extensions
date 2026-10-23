@@ -656,8 +656,8 @@
           "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.manhwaweb.png"
         },
         "extensionLib": "1.4",
-        "versionCode": 106017,
-        "versionName": "1.6.17",
+        "versionCode": 106018,
+        "versionName": "1.6.18",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -668,10 +668,10 @@
           }
         ],
         "apk": "es-manhwaweb-release.apk",
-        "code": 106017,
-        "version": "1.6.17",
-        "hash": "9ed456fe9f8e010ce5107a67531331e73c7ac7e2ad0f92fab5e15ff052043e02",
-        "size": 678.41
+        "code": 106018,
+        "version": "1.6.18",
+        "hash": "5a00ee02f7a08cf78dd31ea27fafd6c50522f02faaf6803f9149f6c5da0ad841",
+        "size": 678.73
       },
       {
         "name": "SamuraiScan",
