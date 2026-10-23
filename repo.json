@@ -498,8 +498,8 @@
       "pkg": "eu.kanade.tachiyomi.extension.es.mangacrab",
       "apk": "es-mangacrab-release.apk",
       "lang": "es",
-      "code": 104076,
-      "version": "2.0.2",
+      "code": 104077,
+      "version": "2.0.3",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -511,8 +511,8 @@
           "baseUrl": "https://es.mangacrab.org"
         }
       ],
-      "hash": "905e02f4c15ca51224fb8b10b80797a5d2355751c23b94014d8219737f14b7ce",
-      "size": 708.61
+      "hash": "b77edff979d60ac719a85f0f2d200f9e79a023c3ddac2deffdd652875cf2d84d",
+      "size": 709.36
     },
     {
       "name": "Mundo Manhwa",

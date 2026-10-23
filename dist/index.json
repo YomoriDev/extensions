@@ -486,8 +486,8 @@
           "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.mangacrab.png"
         },
         "extensionLib": "1.4",
-        "versionCode": 104076,
-        "versionName": "2.0.2",
+        "versionCode": 104077,
+        "versionName": "2.0.3",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
