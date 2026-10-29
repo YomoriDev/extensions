@@ -18,5 +18,37 @@
       }
     ],
     "sha256": "398beffa168b6b69b252133bd178104e157cc71a01826f0bdce83dc6428cd36a"
+  },
+  {
+    "name": "Mega1080",
+    "pkg": "eu.kanade.tachiyomi.animeextension.es.mega1080",
+    "apk": "es-mega1080-release.apk",
+    "lang": "es",
+    "code": 2,
+    "version": "17.2",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": 6049260433395088862,
+        "name": "Mega1080 Películas",
+        "lang": "es",
+        "baseUrl": "https://mega1080.me"
+      },
+      {
+        "id": 6128940014129549295,
+        "name": "Mega1080 Series",
+        "lang": "es",
+        "baseUrl": "https://mega1080.me"
+      },
+      {
+        "id": 8910116512212648046,
+        "name": "Mega1080 Animes",
+        "lang": "es",
+        "baseUrl": "https://mega1080.me"
+      }
+    ],
+    "sha256": "bf3ec8443e41f1db76cae6d78207ac556a0ab907c8ad9c349e8a7373af045394"
   }
 ]

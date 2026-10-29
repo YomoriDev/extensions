@@ -9,7 +9,7 @@
         android:label="Yomori: Mega1080">
         <meta-data
             android:name="tachiyomi.animeextension.class"
-            android:value=".Mega1080" />
+            android:value=".Mega1080Factory" />
         <meta-data
             android:name="tachiyomi.animeextension.nsfw"
             android:value="0" />

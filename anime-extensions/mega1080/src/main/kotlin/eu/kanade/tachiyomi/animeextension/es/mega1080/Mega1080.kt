@@ -1,5 +1,7 @@
 package eu.kanade.tachiyomi.animeextension.es.mega1080
 
+import eu.kanade.tachiyomi.animesource.AnimeSource
+import eu.kanade.tachiyomi.animesource.AnimeSourceFactory
 import eu.kanade.tachiyomi.animesource.model.AnimeFilter
 import eu.kanade.tachiyomi.animesource.model.AnimeFilterList
 import eu.kanade.tachiyomi.animesource.model.AnimesPage
@@ -9,21 +11,33 @@ import eu.kanade.tachiyomi.animesource.model.Track
 import eu.kanade.tachiyomi.animesource.model.Video
 import eu.kanade.tachiyomi.animesource.online.AnimeHttpSource
 import eu.kanade.tachiyomi.network.GET
+import eu.kanade.tachiyomi.network.awaitSuccess
 import okhttp3.Headers
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.Request
 import okhttp3.Response
 import org.json.JSONObject
 
-/**
- * Mega1080 (https://mega1080.me): movies in Spanish (Latino / Castellano / Subtitulado).
- *
- * The site is a single page app that talks to a small JSON API (/api/rest): `listing`, `search`
- * and `player`. Each movie has one "episode" (the movie itself) whose players are embeds.
- */
-class Mega1080 : AnimeHttpSource() {
+/** One source per kind of content, so each has its own catalog, search and filters. */
+class Mega1080Factory : AnimeSourceFactory {
+    override fun createSources(): List<AnimeSource> = listOf(
+        Mega1080(postType = "movies", name = "Mega1080 Películas"),
+        Mega1080(postType = "tvshows", name = "Mega1080 Series"),
+        Mega1080(postType = "animes", name = "Mega1080 Animes"),
+    )
+}
 
-    override val name = "Mega1080"
+/**
+ * Mega1080 (https://mega1080.me): movies, series and anime in Spanish (Latino / Castellano / Subtitulado).
+ *
+ * The site is a single page app that talks to a small JSON API (/api/rest): `listing`, `search`,
+ * `episodes` and `player`. A movie is one "episode" (the movie itself); series and anime list their
+ * real episodes. Every episode's players are embeds.
+ */
+class Mega1080(
+    private val postType: String,
+    override val name: String,
+) : AnimeHttpSource() {
 
     override val baseUrl = "https://mega1080.me"
 
@@ -33,13 +47,15 @@ class Mega1080 : AnimeHttpSource() {
 
     private val api = "$baseUrl/api/rest"
 
+    private val isMovie get() = postType == "movies"
+
     override fun headersBuilder(): Headers.Builder = super.headersBuilder()
         .add("Referer", "$baseUrl/")
 
     // =============================== Lists ================================
 
     override fun popularAnimeRequest(page: Int): Request =
-        GET("$api/listing?post_type=movies&page=$page&order=latest", headers)
+        GET("$api/listing?post_type=$postType&page=$page&order=latest", headers)
 
     override fun popularAnimeParse(response: Response): AnimesPage = parsePosts(response)
 
@@ -52,14 +68,14 @@ class Mega1080 : AnimeHttpSource() {
         val text = query.trim()
         if (text.length >= MIN_QUERY) {
             val url = "$api/search".toHttpUrl().newBuilder()
-                .addQueryParameter("post_type", "movies")
+                .addQueryParameter("post_type", postType)
                 .addQueryParameter("query", text.take(MAX_QUERY))
                 .addQueryParameter("page", page.toString())
             return GET(url.build(), headers)
         }
 
         val url = "$api/listing".toHttpUrl().newBuilder()
-            .addQueryParameter("post_type", "movies")
+            .addQueryParameter("post_type", postType)
             .addQueryParameter("page", page.toString())
             .addQueryParameter("order", "latest")
         val genres = filters.filterIsInstance<GenreFilter>().firstOrNull()
@@ -77,7 +93,7 @@ class Mega1080 : AnimeHttpSource() {
         val animes = (0 until posts.length()).map { index ->
             val post = posts.getJSONObject(index)
             SAnime.create().apply {
-                url = "/peliculas/${post.getString("slug")}?id=${post.getLong("_id")}"
+                url = "/$postType/${post.getString("slug")}?id=${post.getLong("_id")}"
                 title = post.getString("title")
                 description = post.optString("overview").takeIf { it.isNotBlank() }
                 thumbnail_url = post.optJSONObject("images")?.optString("poster")
@@ -86,7 +102,7 @@ class Mega1080 : AnimeHttpSource() {
                 genre = post.optJSONArray("genres")?.let { ids ->
                     (0 until ids.length()).mapNotNull { GENRES[ids.getInt(it)] }.joinToString(", ")
                 }?.takeIf { it.isNotEmpty() }
-                status = SAnime.COMPLETED
+                status = if (isMovie) SAnime.COMPLETED else SAnime.UNKNOWN
             }
         }
 
@@ -96,19 +112,44 @@ class Mega1080 : AnimeHttpSource() {
         return AnimesPage(animes, hasNextPage)
     }
 
-    // ============================ Details / episode =======================
+    // ============================ Details / episodes ======================
 
     /** Everything we need is already in the listing, so no extra request is made. */
     override suspend fun getAnimeDetails(anime: SAnime): SAnime = anime.apply { initialized = true }
 
-    /** A movie is a single "episode". */
-    override suspend fun getEpisodeList(anime: SAnime): List<SEpisode> = listOf(
-        SEpisode.create().apply {
-            url = anime.url
-            name = "Película"
-            episode_number = 1f
-        },
-    )
+    override suspend fun getEpisodeList(anime: SAnime): List<SEpisode> {
+        if (isMovie) {
+            return listOf(
+                SEpisode.create().apply {
+                    url = anime.url
+                    name = "Película"
+                    episode_number = 1f
+                },
+            )
+        }
+
+        val id = anime.url.substringAfter("id=")
+        val body = client.newCall(GET("$api/episodes?post_id=$id", headers)).awaitSuccess()
+            .use { it.body.string() }
+        val items = JSONObject(body).optJSONArray("data") ?: return emptyList()
+
+        val episodes = (0 until items.length()).map { items.getJSONObject(it) }
+        val seasons = episodes.map { it.optInt("season_number") }.toSet()
+        return episodes
+            .sortedWith(
+                compareByDescending<JSONObject> { it.optInt("season_number") }
+                    .thenByDescending { it.optInt("episode_number") },
+            )
+            .map { item ->
+                val season = item.optInt("season_number")
+                val number = item.optInt("episode_number")
+                SEpisode.create().apply {
+                    url = "/episodes/${item.getString("slug")}?id=${item.getLong("_id")}"
+                    name = if (seasons.size > 1) "Temporada $season - Episodio $number" else "Episodio $number"
+                    episode_number = number.toFloat()
+                }
+            }
+    }
 
     // ================================ Videos ==============================
 
@@ -175,8 +216,10 @@ class Mega1080 : AnimeHttpSource() {
 
         private val GENRES = linkedMapOf(
             26 to "Acción",
-            25 to "Aventura",
+            3032 to "Action & Adventure",
             51 to "Animación",
+            25 to "Aventura",
+            158 to "Bélica",
             27 to "Ciencia ficción",
             192 to "Comedia",
             136 to "Crimen",
@@ -185,14 +228,19 @@ class Mega1080 : AnimeHttpSource() {
             52 to "Familia",
             86 to "Fantasía",
             404 to "Historia",
+            3033 to "Kids",
             249 to "Misterio",
             307 to "Música",
-            215 to "Romance",
-            87 to "Suspense",
-            422 to "Terror",
-            158 to "Bélica",
-            1594 to "Western",
             10517 to "Película de TV",
+            11488 to "Reality",
+            215 to "Romance",
+            3057 to "Sci-Fi & Fantasy",
+            17741 to "Soap",
+            87 to "Suspense",
+            41870 to "Talk",
+            422 to "Terror",
+            3246 to "War & Politics",
+            1594 to "Western",
         )
     }
 }
