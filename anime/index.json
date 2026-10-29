@@ -1,0 +1,22 @@
+[
+  {
+    "name": "AnimeAV1",
+    "pkg": "eu.kanade.tachiyomi.animeextension.es.animeav1",
+    "apk": "es-animeav1-release.apk",
+    "lang": "es",
+    "code": 2,
+    "version": "17.2",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "id": 1563723619853520901,
+        "name": "AnimeAV1",
+        "lang": "es",
+        "baseUrl": "https://animeav1.com"
+      }
+    ],
+    "sha256": "398beffa168b6b69b252133bd178104e157cc71a01826f0bdce83dc6428cd36a"
+  }
+]
