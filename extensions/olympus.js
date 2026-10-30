@@ -368,12 +368,12 @@ export class OlympusExtension extends BaseExtension {
     let chapters = [];
     try {
       const apiUrl = `${this.baseUrl}/api/series/${targetSlug}/chapters`;
-      let res = await fetch(`${apiUrl}?page=1&direction=desc&type=comic`, { headers });
-      if (!res || !res.ok) {
-        res = await fetch(`https://panel.olympusxyz.com/api/series/${targetSlug}/chapters?page=1&direction=desc&type=comic`, { headers }).catch(() => null);
-      }
+      let res = await fetch(`${apiUrl}?page=1&direction=desc&type=comic`, { headers }).catch(() => null);
       if ((!res || !res.ok) && targetSlug !== rawSlug) {
         res = await fetch(`${this.baseUrl}/api/series/${rawSlug}/chapters?page=1&direction=desc&type=comic`, { headers }).catch(() => null);
+      }
+      if (!res || !res.ok) {
+        res = await fetch(`https://olympusbiblioteca.com/api/series/${targetSlug}/chapters?page=1&direction=desc&type=comic`, { headers }).catch(() => null);
       }
 
       if (res.ok) {
