@@ -1,9 +1,23 @@
-// RN Scanlation Dynamic Source Script v2.1.0
+// RN Scanlation Dynamic Source Script v2.1.1
+// 429 (too many requests): repeat the request after the pause the site asks for.
+async function getWithRetry(client, url, tries = 4) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      return await client.get(url);
+    } catch (e) {
+      const status = e && e.response && e.response.status;
+      if (status !== 429 || attempt >= tries) throw e;
+      const asked = parseInt((e.response.headers || {})['retry-after'] || '0', 10) * 1000;
+      await new Promise(r => setTimeout(r, Math.min(Math.max(asked, 1500 * attempt), 10000)));
+    }
+  }
+}
+
 module.exports = {
   getPopular: async function (page, ctx) {
     const { client, baseUrl } = ctx;
     const url = `${baseUrl}/library?sort=views&page=${page}`;
-    const res = await client.get(url);
+    const res = await getWithRetry(client, url);
     const $ = ctx.cheerio.load(res.data);
     const mangas = [];
 
@@ -36,7 +50,7 @@ module.exports = {
   getLatest: async function (page, ctx) {
     const { client, baseUrl } = ctx;
     const url = `${baseUrl}/library?sort=updated&page=${page}`;
-    const res = await client.get(url);
+    const res = await getWithRetry(client, url);
     const $ = ctx.cheerio.load(res.data);
     const mangas = [];
 
@@ -69,7 +83,7 @@ module.exports = {
   search: async function (query, page, ctx) {
     const { client, baseUrl } = ctx;
     const url = `${baseUrl}/library?q=${encodeURIComponent(query)}&page=${page}`;
-    const res = await client.get(url);
+    const res = await getWithRetry(client, url);
     const $ = ctx.cheerio.load(res.data);
     const mangas = [];
 
@@ -100,15 +114,18 @@ module.exports = {
 
   getDetails: async function (manga, ctx) {
     const { client, baseUrl } = ctx;
-    const res = await client.get(manga.url);
+    const res = await getWithRetry(client, manga.url);
     const $ = ctx.cheerio.load(res.data);
 
     const title = $('h1, .comic-title, .title').first().text().trim() || manga.title;
 
-    // Selector preciso para la portada real evitando logos y avatars
-    let cover = $('img[src*="/uploads/covers/"], img[data-src*="/uploads/covers/"], img[src*="storage"], img[src*="comics"]').first().attr('src') ||
-                $('img[src*="/uploads/covers/"], img[data-src*="/uploads/covers/"]').first().attr('data-src') ||
-                $('.thumb img, img.cover').first().attr('src') || '';
+    // La portada real vive en /uploads/covers/<slug>/ (el logo, el banner y otras portadas no valen)
+    const slug = manga.url.replace(/\/+$/, '').split('/').pop();
+    let cover = '';
+    $(`img[src*="/uploads/covers/${slug}/"], img[data-src*="/uploads/covers/${slug}/"]`).each((_, el) => {
+      const c = $(el).attr('data-src') || $(el).attr('src') || '';
+      if (!cover && c && !/\/banner[^/]*$/.test(c)) cover = c;
+    });
 
     if (cover.startsWith('//')) cover = `https:${cover}`;
     else if (cover.startsWith('/')) cover = `${baseUrl}${cover}`;
@@ -147,7 +164,7 @@ module.exports = {
     do {
       try {
         const pageUrl = `${baseUrl}/comics/${slug}/chapters?page=${page}`;
-        const pageResp = await client.get(pageUrl);
+        const pageResp = await getWithRetry(client, pageUrl);
         totalPages = parseInt(pageResp.headers['x-pages'] || '1', 10);
         const $p = ctx.cheerio.load(pageResp.data);
 
@@ -178,7 +195,7 @@ module.exports = {
 
     // Fallback: extraer desde el HTML de la propia ficha
     if (chapters.length === 0) {
-      const res = await client.get(manga.url);
+      const res = await getWithRetry(client, manga.url);
       const $ = ctx.cheerio.load(res.data);
       $('a[data-chapter-id], a[href*="/leer/"], a[href*="/read/"], a[href*="/capitulo/"], .chapter-item a').each((_, a) => {
         let href = $(a).attr('href');
@@ -207,14 +224,12 @@ module.exports = {
   getPages: async function (chapter, ctx) {
     const { client, baseUrl } = ctx;
     // Delay de 200ms para evitar rate-limit HTTP 429
-    await new Promise(r => setTimeout(r, 200));
-
-    const res = await client.get(chapter.url);
+    const res = await getWithRetry(client, chapter.url);
     const $ = ctx.cheerio.load(res.data);
     const pages = [];
     const seen = new Set();
 
-    $('img.page-img, img[data-src*="uploads/pages"], img[src*="uploads/pages"], img[data-fallback*="uploads/pages"], .page-wrap img, img[src*="uploads"], img[data-src*="uploads"], .chapter-images img, #readerarea img').each((_, el) => {
+    $('img[src*="/uploads/pages/"], img[data-src*="/uploads/pages/"]').each((_, el) => {
       let src = $(el).attr('data-src') || $(el).attr('src') || $(el).attr('data-fallback') || '';
       if (src.startsWith('//')) src = `https:${src}`;
       else if (src.startsWith('/')) src = `${baseUrl}${src}`;
