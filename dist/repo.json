@@ -139,8 +139,8 @@
       "pkg": "eu.kanade.tachiyomi.extension.es.rnscanlation",
       "apk": "es-rnscanlation-release.apk",
       "lang": "es",
-      "code": 12,
-      "version": "1.4.12",
+      "code": 13,
+      "version": "1.4.13",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -152,8 +152,8 @@
           "baseUrl": "https://rncalation.online"
         }
       ],
-      "hash": "bf417dcf190fe2f7129dd5d078665b1a962529a318e7da1ff5ded847cb9ce413",
-      "size": 686.54
+      "hash": "ffacdcf0812cb80cd4e4561e994e1599a832529cff77a719c7f02f2bb1e576ac",
+      "size": 20.65
     },
     {
       "name": "SkyMangas",
