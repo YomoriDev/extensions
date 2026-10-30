@@ -42,7 +42,7 @@ class RNScanlation : ParsedHttpSource() {
     // The site answers 429 when it gets too many requests at once. A few requests per second are fine, and
     // when it still says 429 the request is repeated after the pause it asks for.
     override val client: OkHttpClient = network.cloudflareClient.newBuilder()
-        .rateLimitHost(baseUrl.toHttpUrl(), 3, 1)
+        .rateLimitHost(baseUrl.toHttpUrl(), 6, 1)
         .addInterceptor(RetryTooManyRequestsInterceptor())
         .build()
 
@@ -181,7 +181,7 @@ class RNScanlation : ParsedHttpSource() {
 
     override fun pageListParse(document: Document): List<Page> {
         checkVerification(document)
-        return document.select("img[src*='/uploads/pages/'], img[data-src*='/uploads/pages/']")
+        return document.select("img.page-img")
             .map { it.imageUrl() }
             .filter { it.isNotBlank() }
             .distinct()
@@ -270,12 +270,12 @@ class RNScanlation : ParsedHttpSource() {
         return raw
     }
 
-    /** Repeats the request when the site answers 429, waiting what it asks for (or a growing pause). */
+    /** Repeats the request when the site answers 429 or a temporary 502/503/504, waiting what it asks for (or a growing pause). */
     private class RetryTooManyRequestsInterceptor : Interceptor {
         override fun intercept(chain: Interceptor.Chain): Response {
             var response = chain.proceed(chain.request())
             var attempt = 0
-            while (response.code == 429 && attempt < MAX_RETRIES) {
+            while (response.code in RETRY_CODES && attempt < MAX_RETRIES) {
                 val wait = response.header("Retry-After")?.toLongOrNull()?.times(1000)
                     ?: (RETRY_BASE_MS * (attempt + 1))
                 response.close()
@@ -290,6 +290,7 @@ class RNScanlation : ParsedHttpSource() {
     companion object {
         private const val CARD_SELECTOR = "a.comic-card"
         private const val MAX_CHAPTER_PAGES = 40
+        private val RETRY_CODES = setOf(429, 502, 503, 504)
         private const val MAX_RETRIES = 4
         private const val RETRY_BASE_MS = 1500L
         private const val MAX_WAIT_MS = 10_000L

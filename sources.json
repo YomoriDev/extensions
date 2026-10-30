@@ -981,7 +981,6 @@
     "useWebView": true,
     "scriptUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/main/scripts/rnscanlation.js",
     "detailsCoverSelector": "img[src*='/uploads/covers/{slug}/']:not([src*='/banner']), img[data-src*='/uploads/covers/{slug}/']:not([data-src*='/banner'])",
-    "dynamic": true,
     "rateLimit": 3,
     "mangaDetailsTitleSelector": "h1",
     "chapterListPath": "/comics/{slug}/chapters?page={page}",
