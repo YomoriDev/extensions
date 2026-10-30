@@ -970,7 +970,7 @@
     "chapterTitleSelector": "a, span",
     "chapterUrlSelector": "a",
     "chapterDateSelector": ".chapter-release-date, .date, time",
-    "pageListSelector": "img.page-img, img[data-src*='uploads/pages'], img[src*='uploads/pages'], .chapter-images img, #readerarea img",
+    "pageListSelector": "img[src*='/uploads/pages/'], img[data-src*='/uploads/pages/']",
     "pageUrlSelector": "data-src, data-lazy-src, src",
     "version": "2.1.0",
     "titleSelector": ".tt, .title, h2, h3, a",
@@ -980,7 +980,7 @@
     "pageImageAttr": "data-src, data-lazy-src, src",
     "useWebView": true,
     "scriptUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/main/scripts/rnscanlation.js",
-    "detailsCoverSelector": "img[src*='/uploads/covers/'], img[data-src*='/uploads/covers/'], img[src*='storage'], img[src*='comics'], .thumb img, img.cover"
+    "detailsCoverSelector": "img[src*='/uploads/covers/']:not([src*='/banner']), img[data-src*='/uploads/covers/']:not([data-src*='/banner'])"
   },
   {
     "id": 5713083996691468000,
