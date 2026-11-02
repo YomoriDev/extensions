@@ -18,3 +18,4 @@ dependencyResolutionManagement {
 rootProject.name = "yomori-manga-extensions"
 
 include(":rnscanlation")
+include(":mhscans")
