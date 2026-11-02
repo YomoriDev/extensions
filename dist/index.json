@@ -746,8 +746,8 @@
           "iconUrl": "https://raw.githubusercontent.com/YomoriDev/extensions/repo/icon/eu.kanade.tachiyomi.extension.es.mhscans.png"
         },
         "extensionLib": "1.4",
-        "versionCode": "104066",
-        "versionName": "1.4.66",
+        "versionCode": "104067",
+        "versionName": "1.4.67",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
