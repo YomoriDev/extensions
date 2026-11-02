@@ -777,8 +777,8 @@
       "pkg": "eu.kanade.tachiyomi.extension.es.mhscans",
       "apk": "es-mhscans-release.apk",
       "lang": "es",
-      "code": 104066,
-      "version": "2.0.0",
+      "code": 104067,
+      "version": "1.4.67",
       "nsfw": 0,
       "hasReadme": 0,
       "hasChangelog": 0,
@@ -790,7 +790,9 @@
           "id": 3253304651550496300,
           "baseUrl": "https://mhscans.com"
         }
-      ]
+      ],
+      "hash": "4812b1069fbb00511564f15d21b291e5efdae7f5cede1926627e9fc3bed07494",
+      "size": 20.65
     },
     {
       "name": "Raven Scans",
