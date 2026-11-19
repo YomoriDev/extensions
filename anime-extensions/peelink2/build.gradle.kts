@@ -12,8 +12,8 @@ android {
         minSdk = 26
         targetSdk = 36
         // versionName "17.x": the part before the last dot is the extension lib version the app checks
-        versionCode = 1
-        versionName = "17.1"
+        versionCode = 2
+        versionName = "17.2"
     }
 
     buildTypes {

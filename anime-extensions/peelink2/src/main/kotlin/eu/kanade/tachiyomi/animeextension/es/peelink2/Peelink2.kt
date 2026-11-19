@@ -52,33 +52,34 @@ class Peelink2 : AnimeHttpSource() {
 
     override fun latestUpdatesParse(response: Response): AnimesPage = popularAnimeParse(response)
 
-    /**
-     * The site's own search does not work, so we filter the newest pages of the catalog by title.
-     * Page N of a search covers SEARCH_PAGES_PER_PAGE catalog pages.
-     */
-    override suspend fun getSearchAnime(page: Int, query: String, filters: AnimeFilterList): AnimesPage {
-        val text = query.trim().lowercase()
-        if (text.isEmpty()) return fetchCatalog(page)
-
-        val first = (page - 1) * SEARCH_PAGES_PER_PAGE + 1
-        val found = mutableListOf<SAnime>()
-        var any = false
-        for (n in first until first + SEARCH_PAGES_PER_PAGE) {
-            val result = runCatching { fetchCatalog(n) }.getOrNull() ?: break
-            if (result.animes.isEmpty()) break
-            any = true
-            found += result.animes.filter { it.title.lowercase().contains(text) }
-        }
-        return AnimesPage(found.distinctBy { it.url }, any && page < MAX_SEARCH_PAGES)
+    /** Searches with the site's WordPress REST API (the normal ?s= search of the site is broken). */
+    override fun searchAnimeRequest(page: Int, query: String, filters: AnimeFilterList): Request {
+        val url = "$baseUrl/wp-json/wp/v2/posts".toHttpUrl().newBuilder()
+            .addQueryParameter("search", query.trim())
+            .addQueryParameter("per_page", "20")
+            .addQueryParameter("page", page.toString())
+            .addQueryParameter("_fields", "link,title,yoast_head_json.og_image")
+            .build()
+        return GET(url, headers)
     }
 
-    private suspend fun fetchCatalog(page: Int): AnimesPage =
-        client.newCall(popularAnimeRequest(page)).awaitSuccess().use { popularAnimeParse(it) }
-
-    override fun searchAnimeRequest(page: Int, query: String, filters: AnimeFilterList): Request =
-        popularAnimeRequest(page)
-
-    override fun searchAnimeParse(response: Response): AnimesPage = popularAnimeParse(response)
+    override fun searchAnimeParse(response: Response): AnimesPage {
+        val posts = org.json.JSONArray(response.body.string())
+        val animes = (0 until posts.length()).mapNotNull { index ->
+            val post = posts.getJSONObject(index)
+            val link = post.optString("link").takeIf { it.startsWith(baseUrl) } ?: return@mapNotNull null
+            SAnime.create().apply {
+                url = link.removePrefix(baseUrl)
+                title = cleanTitle(org.jsoup.parser.Parser.unescapeEntities(post.getJSONObject("title").getString("rendered"), false))
+                thumbnail_url = post.optJSONObject("yoast_head_json")?.optJSONArray("og_image")
+                    ?.optJSONObject(0)?.optString("url")?.takeIf { it.isNotBlank() }
+                status = SAnime.COMPLETED
+            }
+        }
+        val totalPages = response.header("X-WP-TotalPages")?.toIntOrNull() ?: 1
+        val page = response.request.url.queryParameter("page")?.toIntOrNull() ?: 1
+        return AnimesPage(animes, page < totalPages)
+    }
 
     private fun cardToAnime(link: org.jsoup.nodes.Element): SAnime? {
         val img = link.selectFirst("img[alt]:not([alt=Ver película])") ?: return null
@@ -226,9 +227,6 @@ class Peelink2 : AnimeHttpSource() {
         .trim()
 
     companion object {
-        private const val SEARCH_PAGES_PER_PAGE = 6
-        private const val MAX_SEARCH_PAGES = 12
-
         private val PLAYER = Regex("""px_repros\['([a-z_0-9]+)'\]\s*=\s*'([^']+)'""")
         private val IFRAME_SRC = Regex("""src=["']([^"']+)""", RegexOption.IGNORE_CASE)
         private val REDIRECT = Regex("""window\.location\.href\s*=\s*['"]([^'"]+)""")
