@@ -19,3 +19,4 @@ rootProject.name = "yomori-anime-extensions"
 
 include(":animeav1")
 include(":mega1080")
+include(":peelink2")
